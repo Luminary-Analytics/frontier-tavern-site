@@ -1,0 +1,22 @@
+# Render Blueprint — Frontier Tavern promo site + update relay (static).
+#
+# To deploy (one time):
+#   Render dashboard → New + → Blueprint → connect
+#   Luminary-Analytics/frontier-tavern-site → Apply.
+# Render then serves https://frontier-tavern.onrender.com and auto-redeploys
+# on every push to main.
+#
+# The game's self-updater reads /update/manifest.json from this site (the
+# "update relay"); the build zips live on this repo's GitHub Releases, so
+# Render never stores the heavy artifacts.
+services:
+  - type: web
+    name: frontier-tavern
+    runtime: static
+    staticPublishPath: ./
+    headers:
+      # always revalidate so a pushed manifest/version goes live immediately;
+      # unchanged files still return fast 304s
+      - path: /*
+        name: Cache-Control
+        value: no-cache

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Frontier Tavern — keeper of the last light before the wild</title>
+<meta name="description" content="Run a tavern on the frontier's edge of a magical land. Cook, pour, build, and shelter travelers as the wild presses in. Free beta for Windows and macOS.">
+<style>
+  :root {
+    --ink: #efe7d6; --dim: #b9ac92; --gold: #f0c86e; --deep: #17110b;
+    --panel: #241a10; --edge: #3d2d1a; --green: #7fb069;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--deep); color: var(--ink);
+         font: 17px/1.6 Georgia, 'Times New Roman', serif; }
+  .hero { position: relative; min-height: 72vh; display: flex; align-items: center;
+          justify-content: center; text-align: center; overflow: hidden; }
+  .hero img { position: absolute; inset: 0; width: 100%; height: 100%;
+              object-fit: cover; filter: brightness(0.55) saturate(1.05); }
+  .hero .inner { position: relative; padding: 48px 24px; }
+  h1 { font-size: clamp(2.4rem, 7vw, 4.6rem); color: var(--gold);
+       letter-spacing: 0.04em; text-shadow: 0 3px 14px rgba(0,0,0,0.8); }
+  .tag { color: var(--ink); font-style: italic; margin-top: 10px; font-size: 1.15rem;
+         text-shadow: 0 2px 8px rgba(0,0,0,0.9); }
+  .buttons { margin-top: 34px; display: flex; gap: 14px; justify-content: center;
+             flex-wrap: wrap; }
+  .btn { display: inline-block; padding: 14px 30px; border-radius: 10px;
+         background: var(--panel); border: 1.5px solid var(--gold); color: var(--gold);
+         text-decoration: none; font-weight: bold; font-size: 1.05rem;
+         transition: transform 0.12s ease, background 0.12s ease; }
+  .btn:hover { transform: translateY(-2px); background: #33240f; }
+  .btn.primary { background: var(--gold); color: #241a10; }
+  .btn.primary:hover { background: #ffdb8a; }
+  .note { margin-top: 14px; color: var(--dim); font-size: 0.9rem;
+          text-shadow: 0 1px 6px rgba(0,0,0,0.9); }
+  section { max-width: 980px; margin: 0 auto; padding: 64px 24px; }
+  h2 { color: var(--gold); font-size: 1.7rem; margin-bottom: 18px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+          gap: 22px; margin-top: 26px; }
+  .card { background: var(--panel); border: 1px solid var(--edge); border-radius: 12px;
+          overflow: hidden; }
+  .card img { width: 100%; display: block; aspect-ratio: 21/10; object-fit: cover; }
+  .card .body { padding: 16px 18px; }
+  .card h3 { color: var(--gold); font-size: 1.1rem; margin-bottom: 6px; }
+  .card p { color: var(--dim); font-size: 0.95rem; }
+  ul.features { columns: 2; column-gap: 40px; margin-top: 14px; list-style: none; }
+  ul.features li { padding: 6px 0 6px 26px; position: relative; color: var(--ink);
+                   break-inside: avoid; }
+  ul.features li::before { content: "🍺"; position: absolute; left: 0; }
+  footer { border-top: 1px solid var(--edge); padding: 28px 24px; text-align: center;
+           color: var(--dim); font-size: 0.85rem; }
+  @media (max-width: 640px) { ul.features { columns: 1; } }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <img src="img/hero.png" alt="The tavern at midday, framed by a golden birch">
+  <div class="inner">
+    <h1>FRONTIER TAVERN</h1>
+    <div class="tag">keeper of the last light before the wild</div>
+    <div class="buttons">
+      <a class="btn primary" href="https://github.com/Luminary-Analytics/frontier-tavern-site/releases/latest" id="dl-mac">Download for macOS</a>
+      <a class="btn" href="https://github.com/Luminary-Analytics/frontier-tavern-site/releases/latest" id="dl-win">Download for Windows</a>
+    </div>
+    <div class="note" id="ver-note">Free beta — updates itself in-game.</div>
+  </div>
+</div>
+
+<section>
+  <h2>The last warm hearth before the map runs out</h2>
+  <p>
+    You keep the only tavern on the frontier's edge of a magical land. Pour ale,
+    stew what the valley gives you, and build a reputation good enough that
+    travelers trust your roof for the night — because past the creek and the
+    mountain pass, something pale waits for a warm bowl of glowing stew.
+  </p>
+  <ul class="features">
+    <li>Cook & serve — five recipes, wood-fired stove, impatient regulars</li>
+    <li>Grow & gather — garden, forage, and fish the valley</li>
+    <li>Build & rearrange — move the bar, the kegs, even the stove</li>
+    <li>Rent rooms — four guest rooms upstairs, paid nightly</li>
+    <li>Trade with Ferris — the peddler buys, sells, and carries rumors</li>
+    <li>Day & night — sun and moon over a living frontier valley</li>
+  </ul>
+</section>
+
+<section>
+  <h2>From the valley</h2>
+  <div class="grid">
+    <div class="card"><img src="img/creek.png" alt="The creek and footbridge">
+      <div class="body"><h3>The creek</h3><p>Running water, a plank bridge, and the road to the wider world.</p></div></div>
+    <div class="card"><img src="img/shop.png" alt="Trading with Ferris the Peddler">
+      <div class="body"><h3>Ferris the Peddler</h3><p>Buy stock, sell your goods, and hear what the roads are whispering.</p></div></div>
+    <div class="card"><img src="img/sunset.png" alt="Sunset over the tavern">
+      <div class="body"><h3>Closing time</h3><p>Lock the door, count the coin, sleep — and greet day two.</p></div></div>
+  </div>
+</section>
+
+<footer>
+  Frontier Tavern — a Luminary Analytics game · <span id="footer-ver"></span><br>
+  Windows &amp; macOS · saves live outside the install, updates never touch them.
+</footer>
+
+<script>
+  // show the live version from the update relay (same manifest the game reads)
+  fetch('update/manifest.json').then(r => r.json()).then(m => {
+    if (!m || !m.version) return;
+    document.getElementById('footer-ver').textContent = 'latest build ' + m.version;
+    document.getElementById('ver-note').textContent =
+      'Free beta ' + m.version + ' — updates itself in-game.';
+    if (m.macUrl && !m.macUrl.startsWith('REPLACE'))
+      document.getElementById('dl-mac').href = m.macUrl;
+    if (m.winUrl && !m.winUrl.startsWith('REPLACE'))
+      document.getElementById('dl-win').href = m.winUrl;
+  }).catch(() => {});
+</script>
+
+</body>
+</html>
