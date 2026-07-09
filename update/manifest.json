@@ -1,9 +1,9 @@
 {
-  "version": "v6",
-  "notes": "The tavern grows: buy a covered Front Porch and a Garden Pavilion from Ferris as your sign brightens — real seats, real coin. Plus a check-for-updates button in Settings, a morning ledger when you wake, and satisfying +Ng coin pops.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v6/frontier-tavern-win-v6.zip",
-  "winSha": "c671cb1e9d7502e63c5aca05fbe046ef569c573106d4007146a12fc986a00dfe",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v6/frontier-tavern-mac-v6.zip",
-  "macSha": "aa654dffcb315f8d4d4be74cd9df4cecfe2e49802029a868ec03d1ae6e6cd862",
-  "sig": "1e7unos"
+  "version": "v8",
+  "notes": "Ferris moved her camp to the bridge landing — straight out the tavern door, over the creek, and you're at her wagon. The road south finally feels like a front path.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v8/frontier-tavern-win-v8.zip",
+  "winSha": "ac40aea625ae2d957d96be003331a4cda26586b3372a285c41225375b2dd5732",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v8/frontier-tavern-mac-v8.zip",
+  "macSha": "1b18e05e99f93997af5ff0ee5527f45c197f8e1cf71e8185d116550f3ed65590",
+  "sig": "1n9f2x"
 }
