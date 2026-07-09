@@ -1,9 +1,9 @@
 {
-  "version": "v9",
-  "notes": "Kitchen sense: cook the food, then scoop it with a bowl. Patrons wear their orders over their heads, pots show cooking progress, the ale kegs are labeled, and your reach ignores the crowd. Also: patrons discovered how chairs work.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v9/frontier-tavern-win-v9.zip",
-  "winSha": "b79000b451119b057b39ad777e914564818d859aa5714bf80cddcee6d0186a32",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v9/frontier-tavern-mac-v9.zip",
-  "macSha": "69c1bc367d7f0e414720ff297be70a91ea0aa057b66f098a6f8775b62a2c3a32",
-  "sig": "14mrr8d"
+  "version": "v10",
+  "notes": "The update banner learned to leave when dismissed. (If your banner ever went unresponsive: this is the cure — update via Settings > Check for updates.)",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v10/frontier-tavern-win-v10.zip",
+  "winSha": "3660d804a1b4fb679f5eed811560546d18d049f5fc6a4bd49f78a9b65e651759",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v10/frontier-tavern-mac-v10.zip",
+  "macSha": "3bf1254ee2c80ef3c3d8869481246741e5d9398ee76df2a7c15b6e9e544386ab",
+  "sig": "6hcclj"
 }
