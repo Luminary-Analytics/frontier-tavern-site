@@ -1,9 +1,9 @@
 {
-  "version": "v17",
-  "notes": "Caught the last floating cups — two decorative glasses hovering where their table used to be, plus a mug and bowl hovering over the bar. Empties patrons leave behind now settle onto the table instead of hanging in the air.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v17/frontier-tavern-win-v17.zip",
-  "winSha": "88351f9353ccddee45fe79188cf7d53d3eaa8e5389ea395c492f1267e3cb7b25",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v17/frontier-tavern-mac-v17.zip",
-  "macSha": "3fd126a8f9ad86730041a7a68f231f500b9bdbc6228ef8d24c52df7570e6170e",
-  "sig": "18t8ddr"
+  "version": "v18",
+  "notes": "The bar is out — grab bowls from the serving table and mugs from the new wall rack (Maren's letter waits there now). Kitchen untangled: the wash basin is out of the floor and the bread oven has its own corner. One rug at the door instead of two.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v18/frontier-tavern-win-v18.zip",
+  "winSha": "8784c2f27a2608f121d76209a48055c0a9db1d62f04d904afc7d631980daca6c",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v18/frontier-tavern-mac-v18.zip",
+  "macSha": "f7512967139c18686ec7df7491a16c24dca71b4292b95fbd2cdd5419967495c7",
+  "sig": "5af4jc"
 }
