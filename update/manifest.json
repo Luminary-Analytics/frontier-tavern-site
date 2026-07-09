@@ -1,9 +1,9 @@
 {
-  "version": "v18",
-  "notes": "The bar is out — grab bowls from the serving table and mugs from the new wall rack (Maren's letter waits there now). Kitchen untangled: the wash basin is out of the floor and the bread oven has its own corner. One rug at the door instead of two.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v18/frontier-tavern-win-v18.zip",
-  "winSha": "8784c2f27a2608f121d76209a48055c0a9db1d62f04d904afc7d631980daca6c",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v18/frontier-tavern-mac-v18.zip",
-  "macSha": "f7512967139c18686ec7df7491a16c24dca71b4292b95fbd2cdd5419967495c7",
-  "sig": "5af4jc"
+  "version": "v19",
+  "notes": "Aunt Maren's letter actually opens now — the E press that opened it was also instantly closing it on some machines. Applies to all letters, including the morning summary.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v19/frontier-tavern-win-v19.zip",
+  "winSha": "ee6b50e74b65cd8da48c37fb382509a7cbbfddbd83938b7780c1260cf4beb3f9",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v19/frontier-tavern-mac-v19.zip",
+  "macSha": "8c313c571b778ec64454cae39a3f0a93b775a301a601e65c450e2731710f425b",
+  "sig": "15u9avx"
 }
