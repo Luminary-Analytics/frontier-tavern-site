@@ -1,9 +1,9 @@
 {
-  "version": "v1",
-  "notes": "First frontier beta: the valley, the creek, Ferris's trade wagon, room rentals, day/night, and the self-updater.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v1/frontier-tavern-win-v1.zip",
-  "winSha": "7564a572ed5839e4bf2ea78583b4de87858aba954cde508d5d75d33b205f9bf5",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v1/frontier-tavern-mac-v1.zip",
-  "macSha": "3f5a3d3c9fa8aad61777fb3aba56cb77d3c9439ffe9c0ff99b47b5dcf819b963",
-  "sig": "64g227"
+  "version": "v2",
+  "notes": "Frontier Tavern v2",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v2/frontier-tavern-win-v2.zip",
+  "winSha": "487af43854e9fa06df0732b4568111b9ad195027afd535331c4730083acd2783",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v2/frontier-tavern-mac-v2.zip",
+  "macSha": "bbdce7ee98a42a2ff52b9c59704a12677b7c16b0b32906ee441832c68fac8002",
+  "sig": "k0owv3"
 }
