@@ -1,9 +1,9 @@
 {
-  "version": "v16",
-  "notes": "Stairwell fixed for real this time: wider treads close the gap and the handrail stops short of the top. Guest-room doors rebuilt properly — detailed on both faces, no more backwards doors. Patrons leave their staffs at home, tabletop mugs and jugs stay on their furniture, and order tags no longer show through the floor.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v16/frontier-tavern-win-v16.zip",
-  "winSha": "65d8fd4dc633115b60f92c8573614a14cdd808afc73013fed95be041003cb22f",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v16/frontier-tavern-mac-v16.zip",
-  "macSha": "374ad0da2a3efbc7a697d7da86db33b18c5956c10255742fa0606ac0e3137b1a",
-  "sig": "13b2yrp"
+  "version": "v17",
+  "notes": "Caught the last floating cups — two decorative glasses hovering where their table used to be, plus a mug and bowl hovering over the bar. Empties patrons leave behind now settle onto the table instead of hanging in the air.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v17/frontier-tavern-win-v17.zip",
+  "winSha": "88351f9353ccddee45fe79188cf7d53d3eaa8e5389ea395c492f1267e3cb7b25",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v17/frontier-tavern-mac-v17.zip",
+  "macSha": "3fd126a8f9ad86730041a7a68f231f500b9bdbc6228ef8d24c52df7570e6170e",
+  "sig": "18t8ddr"
 }
