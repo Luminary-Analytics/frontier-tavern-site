@@ -1,9 +1,9 @@
 {
-  "version": "v4",
-  "notes": "v4: story, guided first day, and a visible progression path",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v4/frontier-tavern-win-v4.zip",
-  "winSha": "9ff0a17d308d6f115d70ede51de9cd4167012e3355bca4a78525a34e96b0b533",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v4/frontier-tavern-mac-v4.zip",
-  "macSha": "44f27f1439f884c7776132955846cf1edac09d3f89f031caeee588414f95adfc",
-  "sig": "2626ls"
+  "version": "v5",
+  "notes": "Maren's letters find their way to your doormat as the sign brightens. Ferris carries news, the hill keeps her cairn, patrons raise their mugs to you, and glowcap tea joins the menu. Plus: the stew pot can no longer eat your dinner.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v5/frontier-tavern-win-v5.zip",
+  "winSha": "2970d6d6c18f29822190d817258e7cbef756fa82ef8e676836f696e4e37b3457",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v5/frontier-tavern-mac-v5.zip",
+  "macSha": "f3feda3b097770b9eaebc04dc40e80b489508db1d9deb9898809e53f9dcf36b4",
+  "sig": "1dqm6o2"
 }
