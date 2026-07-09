@@ -1,9 +1,9 @@
 {
-  "version": "v8",
-  "notes": "Ferris moved her camp to the bridge landing — straight out the tavern door, over the creek, and you're at her wagon. The road south finally feels like a front path.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v8/frontier-tavern-win-v8.zip",
-  "winSha": "ac40aea625ae2d957d96be003331a4cda26586b3372a285c41225375b2dd5732",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v8/frontier-tavern-mac-v8.zip",
-  "macSha": "1b18e05e99f93997af5ff0ee5527f45c197f8e1cf71e8185d116550f3ed65590",
-  "sig": "1n9f2x"
+  "version": "v9",
+  "notes": "Kitchen sense: cook the food, then scoop it with a bowl. Patrons wear their orders over their heads, pots show cooking progress, the ale kegs are labeled, and your reach ignores the crowd. Also: patrons discovered how chairs work.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v9/frontier-tavern-win-v9.zip",
+  "winSha": "b79000b451119b057b39ad777e914564818d859aa5714bf80cddcee6d0186a32",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v9/frontier-tavern-mac-v9.zip",
+  "macSha": "69c1bc367d7f0e414720ff297be70a91ea0aa057b66f098a6f8775b62a2c3a32",
+  "sig": "14mrr8d"
 }
