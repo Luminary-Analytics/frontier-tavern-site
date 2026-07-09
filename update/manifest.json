@@ -1,9 +1,9 @@
 {
-  "version": "v11",
-  "notes": "Update Now button actually updates now (banner labels were swallowing clicks since v2). Click-to-close letters works over the text. Settings > Check for updates can install directly: click once to check, again to install.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v11/frontier-tavern-win-v11.zip",
-  "winSha": "79a3fa0255e58f09574f76b4c415046636ba02482230382b92b6030066b68cec",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v11/frontier-tavern-mac-v11.zip",
-  "macSha": "8e839b0348a85f0951de737c803f1a12d57a123a34d8e4e8b0b972d53f648f95",
-  "sig": "lunns5"
+  "version": "v12",
+  "notes": "macOS self-update is safe and works end to end. (v11's Update Now fix exposed a path bug in the mac helper that could delete the folder the game was installed in; v12 fixes and hard-guards it. Windows was never affected.)",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v12/frontier-tavern-win-v12.zip",
+  "winSha": "80e2b75e7353249fa03d7b2f9b395d69e2112f89e59e37e6e4912f339c1a0fd9",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v12/frontier-tavern-mac-v12.zip",
+  "macSha": "95e652868164b5e93f98f61bb77da2558b517474c157fd779b625bac7cdde447",
+  "sig": "1x8opqk"
 }
