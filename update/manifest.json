@@ -1,9 +1,9 @@
 {
-  "version": "v5",
-  "notes": "Maren's letters find their way to your doormat as the sign brightens. Ferris carries news, the hill keeps her cairn, patrons raise their mugs to you, and glowcap tea joins the menu. Plus: the stew pot can no longer eat your dinner.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v5/frontier-tavern-win-v5.zip",
-  "winSha": "2970d6d6c18f29822190d817258e7cbef756fa82ef8e676836f696e4e37b3457",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v5/frontier-tavern-mac-v5.zip",
-  "macSha": "f3feda3b097770b9eaebc04dc40e80b489508db1d9deb9898809e53f9dcf36b4",
-  "sig": "1dqm6o2"
+  "version": "v7",
+  "notes": "Ferris runs the whole trade now — the crates are packed away, everything buys and sells through her wagon window. And the tutorial gives honest directions: east path, not the bridge.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v7/frontier-tavern-win-v7.zip",
+  "winSha": "c3bb9680a3d24dbb3a0006a8e0bf4ade207ecb7e3a831feb7dadfaf581d7825e",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v7/frontier-tavern-mac-v7.zip",
+  "macSha": "11d0ac5e31ebf78fd3cdc47cc26a1909d545854f8d19fb0c99c02db3a7deed69",
+  "sig": "1mv8nfm"
 }
