@@ -1,9 +1,9 @@
 {
-  "version": "v15",
-  "notes": "The game now opens with the Luminary Analytics logo.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v15/frontier-tavern-win-v15.zip",
-  "winSha": "cf5734164346e7302d995c8905fb415d8100d5f22677315c7f283462a11d6a87",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v15/frontier-tavern-mac-v15.zip",
-  "macSha": "2daa03f7e0ff11290dc0a0a53d99a5c798f12f17d57a1f8b0af9ec09dd2a4f94",
-  "sig": "1l911nj"
+  "version": "v16",
+  "notes": "Stairwell fixed for real this time: wider treads close the gap and the handrail stops short of the top. Guest-room doors rebuilt properly — detailed on both faces, no more backwards doors. Patrons leave their staffs at home, tabletop mugs and jugs stay on their furniture, and order tags no longer show through the floor.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v16/frontier-tavern-win-v16.zip",
+  "winSha": "65d8fd4dc633115b60f92c8573614a14cdd808afc73013fed95be041003cb22f",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v16/frontier-tavern-mac-v16.zip",
+  "macSha": "374ad0da2a3efbc7a697d7da86db33b18c5956c10255742fa0606ac0e3137b1a",
+  "sig": "13b2yrp"
 }
