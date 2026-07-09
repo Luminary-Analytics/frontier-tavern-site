@@ -1,9 +1,9 @@
 {
-  "version": "v7",
-  "notes": "Ferris runs the whole trade now — the crates are packed away, everything buys and sells through her wagon window. And the tutorial gives honest directions: east path, not the bridge.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v7/frontier-tavern-win-v7.zip",
-  "winSha": "c3bb9680a3d24dbb3a0006a8e0bf4ade207ecb7e3a831feb7dadfaf581d7825e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v7/frontier-tavern-mac-v7.zip",
-  "macSha": "11d0ac5e31ebf78fd3cdc47cc26a1909d545854f8d19fb0c99c02db3a7deed69",
-  "sig": "1mv8nfm"
+  "version": "v6",
+  "notes": "The tavern grows: buy a covered Front Porch and a Garden Pavilion from Ferris as your sign brightens — real seats, real coin. Plus a check-for-updates button in Settings, a morning ledger when you wake, and satisfying +Ng coin pops.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v6/frontier-tavern-win-v6.zip",
+  "winSha": "c671cb1e9d7502e63c5aca05fbe046ef569c573106d4007146a12fc986a00dfe",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v6/frontier-tavern-mac-v6.zip",
+  "macSha": "aa654dffcb315f8d4d4be74cd9df4cecfe2e49802029a868ec03d1ae6e6cd862",
+  "sig": "1e7unos"
 }
