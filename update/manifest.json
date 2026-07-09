@@ -1,9 +1,9 @@
 {
-  "version": "v2",
-  "notes": "Frontier Tavern v2",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v2/frontier-tavern-win-v2.zip",
-  "winSha": "487af43854e9fa06df0732b4568111b9ad195027afd535331c4730083acd2783",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v2/frontier-tavern-mac-v2.zip",
-  "macSha": "bbdce7ee98a42a2ff52b9c59704a12677b7c16b0b32906ee441832c68fac8002",
-  "sig": "k0owv3"
+  "version": "v3",
+  "notes": "v3: fix the build-only pink wall + Windows playtest round",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v3/frontier-tavern-win-v3.zip",
+  "winSha": "ed7d2c103078c62e9fcb7f6606a643829fa9037daabda29460bebd343727ebf1",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v3/frontier-tavern-mac-v3.zip",
+  "macSha": "d82d537c0b5b0b4dfba02df5d9447cb4419ae2d42c0f937e5b01797d2ba44428",
+  "sig": "15g9o6m"
 }
