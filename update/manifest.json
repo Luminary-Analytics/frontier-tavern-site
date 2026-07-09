@@ -1,9 +1,9 @@
 {
-  "version": "v14",
-  "notes": "The tavern got a QA pass: no more floating candles by the kitchen, the corner crates are gone and a table fills the nook, the upstairs landing opening is wider, the chimney moved out of the Northstar guest room onto the north facade, the bridge no longer needs a hop, and Ferris's cart is out of the fence. Now proudly a Luminary Analytics game — your saves carry over automatically.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v14/frontier-tavern-win-v14.zip",
-  "winSha": "25dcf6caae92f66c2546694c8da34fa25e4ee457ff7de33064ade405c9ce8ed9",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v14/frontier-tavern-mac-v14.zip",
-  "macSha": "2f8f30f32ebdca2515f6c6ab199cbe724f373f0cb2491b9a9c0a9180affd8c75",
-  "sig": "7tkc4y"
+  "version": "v15",
+  "notes": "The game now opens with the Luminary Analytics logo.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v15/frontier-tavern-win-v15.zip",
+  "winSha": "cf5734164346e7302d995c8905fb415d8100d5f22677315c7f283462a11d6a87",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v15/frontier-tavern-mac-v15.zip",
+  "macSha": "2daa03f7e0ff11290dc0a0a53d99a5c798f12f17d57a1f8b0af9ec09dd2a4f94",
+  "sig": "1l911nj"
 }
