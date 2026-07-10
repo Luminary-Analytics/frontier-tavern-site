@@ -20,3 +20,17 @@ services:
       - path: /*
         name: Cache-Control
         value: no-cache
+
+  # In-game feedback ingestion: receives player reports from the game client,
+  # files one GitHub issue per report in the private triage repo. Needs the
+  # FEEDBACK_GITHUB_TOKEN env var set in the Render dashboard (fine-grained
+  # PAT with contents+issues read/write on frontier-tavern-feedback ONLY).
+  - type: web
+    name: frontier-tavern-feedback
+    runtime: node
+    rootDir: feedback-api
+    buildCommand: "true"
+    startCommand: node server.js
+    envVars:
+      - key: FEEDBACK_GITHUB_TOKEN
+        sync: false
