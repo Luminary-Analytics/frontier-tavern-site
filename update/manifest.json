@@ -1,9 +1,9 @@
 {
-  "version": "v20",
-  "notes": "Serving is precise now: a ring shows exactly where your mug will land (green when it fills an order at that table), items sit flat on the table instead of inside it, and the patron nearest your placement gets served — not whoever ordered first. Ale barrels have their labels back, fake table mugs are gone, and the chandelier hardware no longer pokes through the upstairs floors.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v20/frontier-tavern-win-v20.zip",
-  "winSha": "8a7cc81333cced0e79ec8a2454f82088462d7695271f2915360c6f764fb320bc",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v20/frontier-tavern-mac-v20.zip",
-  "macSha": "565f44d5b0db04f7e0bf6ce24709528a507c5bfa651e227bdfc2933326e19ee3",
-  "sig": "1ws9l8n"
+  "version": "v21",
+  "notes": "Serve patrons directly: aim at the person and press E — the prompt tells you who gets it. Pouring locks onto the mug you started with. Trees no longer grow through the walls, the wardrobe is out of the wall, and the chandelier ring is clear of the post.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v21/frontier-tavern-win-v21.zip",
+  "winSha": "3ac0a6809ec10a55291ed31174755b3b3ba08b8c441481066567b64b13401776",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v21/frontier-tavern-mac-v21.zip",
+  "macSha": "febf47a8ddacd8f9c6ab79ab9aa19ce3f7c295b7c1f5cee2c7e4e65f5c287f18",
+  "sig": "1ovlsg7"
 }
