@@ -1,9 +1,9 @@
 {
-  "version": "v25",
-  "notes": "Fresh drinks no longer land inside the empty mug a patron left behind — pick up empties at your leisure. The cooking tutorial now points at the full recipe list in your backpack (Tab).",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v25/frontier-tavern-win-v25.zip",
-  "winSha": "51bdc70c67dcc057c73e24d1f6ef7c0d0e4d9c902ae58e33c8c93bf4f330139e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v25/frontier-tavern-mac-v25.zip",
-  "macSha": "35ffee6d1a8b6e438722bca98aef53d5ec02aa6940525710982c9b0622172f97",
-  "sig": "1evfwej"
+  "version": "v26",
+  "notes": "Candles stay on their tables through save loads and furniture moves, patrons' seats stay put, Ferris's stories wait for you to finish reading, build mode says when it's on (B toggles it), and the request board explains itself — F8 is how you report bugs.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v26/frontier-tavern-win-v26.zip",
+  "winSha": "557ba3243ea40122000e592f3d7331cda1bbc3a3133e06b1030e939453bc157e",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v26/frontier-tavern-mac-v26.zip",
+  "macSha": "c912fcacc65ce758056000c1e006f09d67e6dbea434b9a101c44c45de1021ac3",
+  "sig": "17zpguf"
 }
