@@ -1,9 +1,9 @@
 {
-  "version": "v19",
-  "notes": "Aunt Maren's letter actually opens now — the E press that opened it was also instantly closing it on some machines. Applies to all letters, including the morning summary.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v19/frontier-tavern-win-v19.zip",
-  "winSha": "ee6b50e74b65cd8da48c37fb382509a7cbbfddbd83938b7780c1260cf4beb3f9",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v19/frontier-tavern-mac-v19.zip",
-  "macSha": "8c313c571b778ec64454cae39a3f0a93b775a301a601e65c450e2731710f425b",
-  "sig": "15u9avx"
+  "version": "v20",
+  "notes": "Serving is precise now: a ring shows exactly where your mug will land (green when it fills an order at that table), items sit flat on the table instead of inside it, and the patron nearest your placement gets served — not whoever ordered first. Ale barrels have their labels back, fake table mugs are gone, and the chandelier hardware no longer pokes through the upstairs floors.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v20/frontier-tavern-win-v20.zip",
+  "winSha": "8a7cc81333cced0e79ec8a2454f82088462d7695271f2915360c6f764fb320bc",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v20/frontier-tavern-mac-v20.zip",
+  "macSha": "565f44d5b0db04f7e0bf6ce24709528a507c5bfa651e227bdfc2933326e19ee3",
+  "sig": "1ws9l8n"
 }
