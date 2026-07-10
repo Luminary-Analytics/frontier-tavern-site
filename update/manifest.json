@@ -1,9 +1,9 @@
 {
-  "version": "v22",
-  "notes": "Drinks pour instantly at the tap. Everything that cooks shows a real progress bar — amber while it cooks, red and draining when it's ready and risking the burn.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v22/frontier-tavern-win-v22.zip",
-  "winSha": "1417d52ccf3bd72fc60bdbecc57dd6091f8234cfe16be3fdea7cd549b8c51656",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v22/frontier-tavern-mac-v22.zip",
-  "macSha": "d74050b7072cfa33e9c19ac16c067a46baeb51cee0e352e1dea6b36c9e7340e0",
-  "sig": "1ynaz7f"
+  "version": "v23",
+  "notes": "Pause menu grew proper Quit to Main Menu / Quit to Desktop options with confirmations, and Escape now does exactly one thing per press. The clock holds at 23:50 instead of pretending it's midnight. The wandering floor candle and the campfire spirit in Ferris's tree have both been laid to rest — and a new placement validator now guards every future build against floating and clipping props.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v23/frontier-tavern-win-v23.zip",
+  "winSha": "e81dbac8d24579ccfd7b342fc7205e70ac9391b0e4abcb076a35c7d124e0196b",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v23/frontier-tavern-mac-v23.zip",
+  "macSha": "980f125d73a3cc85c975cf144c42503685bc559f76677799c7a96714563cd5f4",
+  "sig": "17ltw95"
 }
