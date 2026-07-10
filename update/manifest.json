@@ -1,9 +1,9 @@
 {
-  "version": "v21",
-  "notes": "Serve patrons directly: aim at the person and press E — the prompt tells you who gets it. Pouring locks onto the mug you started with. Trees no longer grow through the walls, the wardrobe is out of the wall, and the chandelier ring is clear of the post.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v21/frontier-tavern-win-v21.zip",
-  "winSha": "3ac0a6809ec10a55291ed31174755b3b3ba08b8c441481066567b64b13401776",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v21/frontier-tavern-mac-v21.zip",
-  "macSha": "febf47a8ddacd8f9c6ab79ab9aa19ce3f7c295b7c1f5cee2c7e4e65f5c287f18",
-  "sig": "1ovlsg7"
+  "version": "v22",
+  "notes": "Drinks pour instantly at the tap. Everything that cooks shows a real progress bar — amber while it cooks, red and draining when it's ready and risking the burn.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v22/frontier-tavern-win-v22.zip",
+  "winSha": "1417d52ccf3bd72fc60bdbecc57dd6091f8234cfe16be3fdea7cd549b8c51656",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v22/frontier-tavern-mac-v22.zip",
+  "macSha": "d74050b7072cfa33e9c19ac16c067a46baeb51cee0e352e1dea6b36c9e7340e0",
+  "sig": "1ynaz7f"
 }
