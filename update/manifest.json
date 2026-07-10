@@ -1,9 +1,9 @@
 {
-  "version": "v23",
-  "notes": "Pause menu grew proper Quit to Main Menu / Quit to Desktop options with confirmations, and Escape now does exactly one thing per press. The clock holds at 23:50 instead of pretending it's midnight. The wandering floor candle and the campfire spirit in Ferris's tree have both been laid to rest — and a new placement validator now guards every future build against floating and clipping props.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v23/frontier-tavern-win-v23.zip",
-  "winSha": "e81dbac8d24579ccfd7b342fc7205e70ac9391b0e4abcb076a35c7d124e0196b",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v23/frontier-tavern-mac-v23.zip",
-  "macSha": "980f125d73a3cc85c975cf144c42503685bc559f76677799c7a96714563cd5f4",
-  "sig": "17ltw95"
+  "version": "v24",
+  "notes": "Press F8 (or use the pause menu) to report a bug or idea from inside the game — it grabs a screenshot of what you were just looking at, notes where you were standing and what you were aiming at, and sends it to us automatically. Works offline too: reports queue up and submit when you're back online.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v24/frontier-tavern-win-v24.zip",
+  "winSha": "e2c1138c5c3623b92683a8ffabb1fe42cee2f9ef1d78b0f75480ffc27dab4caf",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v24/frontier-tavern-mac-v24.zip",
+  "macSha": "f678f81fa0a4b048a667c2f6e5795969ee489e56db5952504b296ab96a089c58",
+  "sig": "120gqnp"
 }
