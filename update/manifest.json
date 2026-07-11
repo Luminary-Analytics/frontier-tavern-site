@@ -1,9 +1,9 @@
 {
-  "version": "v26",
-  "notes": "Candles stay on their tables through save loads and furniture moves, patrons' seats stay put, Ferris's stories wait for you to finish reading, build mode says when it's on (B toggles it), and the request board explains itself — F8 is how you report bugs.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v26/frontier-tavern-win-v26.zip",
-  "winSha": "557ba3243ea40122000e592f3d7331cda1bbc3a3133e06b1030e939453bc157e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v26/frontier-tavern-mac-v26.zip",
-  "macSha": "c912fcacc65ce758056000c1e006f09d67e6dbea434b9a101c44c45de1021ac3",
-  "sig": "17zpguf"
+  "version": "v27",
+  "notes": "The bug reporter grew up: a clean aligned form, the camera stays put while you type, and Take Screenshot now drops you back into the world to frame the shot — left-click or Enter to capture, Esc to cancel, and your report text is right where you left it.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v27/frontier-tavern-win-v27.zip",
+  "winSha": "8b0f21e899fa5aca37c93003dddb5bc91d909d239472cc030d740d71ce4cf63c",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v27/frontier-tavern-mac-v27.zip",
+  "macSha": "f9f0cb63cbb575cc7274f8e77fe39a29c84584c3acabe0917e3477106bf2e00b",
+  "sig": "vdfp4v"
 }
