@@ -1,9 +1,9 @@
 {
-  "version": "v30",
-  "notes": "Big day at the tavern: keep the room tidy or patrons get restless (a new ticket rail tracks orders and mess), chalk up your own daily menu, bard nights and adventurer rushes and cold snaps liven the evenings, lodgers tip at checkout and come down for breakfast, a wild beehive makes honey for oven-fresh honey cakes, richer morning summaries, and one more letter from Maren.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v30/frontier-tavern-win-v30.zip",
-  "winSha": "e4c3c7c63264b73f8cdf7ff579e13dba2c87abe9483ea20267d461a34b8c532a",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v30/frontier-tavern-mac-v30.zip",
-  "macSha": "1f10e825d16b6482dbcab8c53a5428c64625b78bc325da70d20f3b0844e8d7c1",
-  "sig": "1k7o8jp"
+  "version": "v31",
+  "notes": "Furniture now needs elbow room: build mode refuses spots that would fuse a table into a fence or wall (it tells you BLOCKED instead of guessing), anything already fused in your save frees itself on load, and patrons only claim seats they can actually walk to.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v31/frontier-tavern-win-v31.zip",
+  "winSha": "c8cec0af36d8cf92b5ba20cd0ae628ef873f320f1e65081b384e86fb10b0a53b",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v31/frontier-tavern-mac-v31.zip",
+  "macSha": "3b344afaf50ed1eb714fe329e8ae762cf31e199460589610f0a32f778a740021",
+  "sig": "gt5a0s"
 }
