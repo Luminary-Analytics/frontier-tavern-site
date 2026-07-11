@@ -1,9 +1,9 @@
 {
-  "version": "v31",
-  "notes": "Furniture now needs elbow room: build mode refuses spots that would fuse a table into a fence or wall (it tells you BLOCKED instead of guessing), anything already fused in your save frees itself on load, and patrons only claim seats they can actually walk to.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v31/frontier-tavern-win-v31.zip",
-  "winSha": "c8cec0af36d8cf92b5ba20cd0ae628ef873f320f1e65081b384e86fb10b0a53b",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v31/frontier-tavern-mac-v31.zip",
-  "macSha": "3b344afaf50ed1eb714fe329e8ae762cf31e199460589610f0a32f778a740021",
-  "sig": "gt5a0s"
+  "version": "v32",
+  "notes": "Patrons rediscover manners: nobody walks across the tables anymore. Furniture no longer counts as floor for pathing, and wall-side bench seats are entered from the aisle like a person would.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v32/frontier-tavern-win-v32.zip",
+  "winSha": "fe5162d5422e8a79968a4009a783b89a36bb62181fa26d540728fdc3b3cd8b41",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v32/frontier-tavern-mac-v32.zip",
+  "macSha": "d545580c3d69c8c910ec6dae6f27887baf32e40dbc4f77cef0b5a6a61067336a",
+  "sig": "dz35zb"
 }
