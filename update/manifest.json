@@ -1,9 +1,9 @@
 {
-  "version": "v29",
-  "notes": "Furniture that wandered onto Ferris's wagon in old saves walks itself home (and patrons stop climbing up after it), everyone sits ON their seat instead of in it, Maren's letters are easy to pick up off the doormat, the east-wall candle flame sits on its wick, and the fence by the creek got its missing stretch back.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v29/frontier-tavern-win-v29.zip",
-  "winSha": "f485723e96fa8ec0574856fea2c4dc0c4908f5823f5f5be2db18c09a39082da2",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v29/frontier-tavern-mac-v29.zip",
-  "macSha": "fe52a9f22c72f16e32788de2508baeea2f90c4776a487247ba26882fafcac348",
-  "sig": "fzilbs"
+  "version": "v30",
+  "notes": "Big day at the tavern: keep the room tidy or patrons get restless (a new ticket rail tracks orders and mess), chalk up your own daily menu, bard nights and adventurer rushes and cold snaps liven the evenings, lodgers tip at checkout and come down for breakfast, a wild beehive makes honey for oven-fresh honey cakes, richer morning summaries, and one more letter from Maren.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v30/frontier-tavern-win-v30.zip",
+  "winSha": "e4c3c7c63264b73f8cdf7ff579e13dba2c87abe9483ea20267d461a34b8c532a",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v30/frontier-tavern-mac-v30.zip",
+  "macSha": "1f10e825d16b6482dbcab8c53a5428c64625b78bc325da70d20f3b0844e8d7c1",
+  "sig": "1k7o8jp"
 }
