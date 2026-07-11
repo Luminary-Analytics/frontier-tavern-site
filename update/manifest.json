@@ -1,9 +1,9 @@
 {
-  "version": "v28",
-  "notes": "Your first day now guides you: a golden marker floats over whatever you should do next, every station explains what it cooks and what it needs, cooking shows a real progress bar at the pot, patrons show how long they'll wait and how long until they finish eating, and served drinks sit properly in front of the right patron.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v28/frontier-tavern-win-v28.zip",
-  "winSha": "c14c6d39e13063565b282f8f28428b3adb56e9aa6eb078a7905f9c1a2bb91ea2",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v28/frontier-tavern-mac-v28.zip",
-  "macSha": "75ed6c8467c305119993696ec9d4c15aa00c7ae2af0b4a6a6d2192177c76fc31",
-  "sig": "1rt8xyb"
+  "version": "v29",
+  "notes": "Furniture that wandered onto Ferris's wagon in old saves walks itself home (and patrons stop climbing up after it), everyone sits ON their seat instead of in it, Maren's letters are easy to pick up off the doormat, the east-wall candle flame sits on its wick, and the fence by the creek got its missing stretch back.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v29/frontier-tavern-win-v29.zip",
+  "winSha": "f485723e96fa8ec0574856fea2c4dc0c4908f5823f5f5be2db18c09a39082da2",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v29/frontier-tavern-mac-v29.zip",
+  "macSha": "fe52a9f22c72f16e32788de2508baeea2f90c4776a487247ba26882fafcac348",
+  "sig": "fzilbs"
 }
