@@ -1,9 +1,9 @@
 {
-  "version": "v33",
-  "notes": "Bug reporting is for everyone, from your first minute: the request board by the door now opens the report form at any reputation (F8 and the pause menu still work too). And typing in the report form no longer secretly buys tables — build mode ignores everything while any menu is open, so the phantom furniture stops multiplying.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v33/frontier-tavern-win-v33.zip",
-  "winSha": "78e6d6c8468dc2b70aa02f50b37bd38fcdd6e528c5324cfb4112d476351f22ce",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v33/frontier-tavern-mac-v33.zip",
-  "macSha": "acb6422e078684460fcefd0cd46bd75911f61b0abd48206ab5970b9d866f1022",
-  "sig": "1oawzcv"
+  "version": "v34",
+  "notes": "The invisible patrons were there all along — Unity just stopped drawing them, and now it can't. Early goals count dishes served instead of reputation (no more quests that un-complete themselves), an OPEN/CLOSED shingle hangs by the door and you can flip it, the basin finally looks like a wash tub and says 'washing', the kitchen got elbow room, and the beehive looks like a beehive.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v34/frontier-tavern-win-v34.zip",
+  "winSha": "2314f6f2f764f998e4384623b365d5ed056e7a6572b2ea44c9f3739e98866dff",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v34/frontier-tavern-mac-v34.zip",
+  "macSha": "23ba79d3356e8a4b51d844e6ff07e218234a1583ceaa77663512ec5d2d522146",
+  "sig": "1m8t5gk"
 }
