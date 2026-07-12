@@ -1,9 +1,9 @@
 {
-  "version": "v36",
-  "notes": "The OPEN/CLOSED sign moves to where a sign belongs — outside, beside the door, letters facing you — and stops secretly flipping to CLOSED when you use the door (that's why patrons stopped coming). The basin washes instead of cooks, a caption under the hotbar names what you're holding, Maren's letters land clear of the doorway, and the upstairs wardrobe is out of the wall.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v36/frontier-tavern-win-v36.zip",
-  "winSha": "8cd80d26a1f869c1ea25c9edf9fbc4eaea2852e27244607239856fc672f68b37",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v36/frontier-tavern-mac-v36.zip",
-  "macSha": "5726fe136c9939d892cb422422d65584821ad0f4708f8b607a61605fab432dad",
-  "sig": "1g6kvu9"
+  "version": "v37",
+  "notes": "v37: The invisible-patron mystery is solved — Granny's character model had been silently missing since v29 (a git-lfs pointer shipped instead of the 118MB file); she is back in the flesh and the release gate now verifies every patron model. The menu is now a proper framed chalkboard on the east wall by the ale shelf (no more clipping into the fireplace framing). Picking up furniture politely dismisses anyone sitting on it. Front door swing re-verified.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v37/frontier-tavern-win-v37.zip",
+  "winSha": "e8315984703aee158ca943f02a9b3f57cf4cc7ef5f2d84938f88d17fb82d3d63",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v37/frontier-tavern-mac-v37.zip",
+  "macSha": "598b70e69508d77f2be674cf80ca65d7a7c6e760744ed65b181c3c8168471f9f",
+  "sig": "889vr8"
 }
