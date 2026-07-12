@@ -1,9 +1,9 @@
 {
-  "version": "v38",
-  "notes": "v38: Big pathing fix — buying the Front Porch or Garden Pavilion no longer breaks patron pathing (a mesh import setting made the game rebuild its walk-map without the porch, fence, and rocks in real builds; the release gate now checks every mesh). The merchant wagon's floating flame is now a proper hanging iron lantern.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v38/frontier-tavern-win-v38.zip",
-  "winSha": "895470a2caec2cbe742a631211b7d459fab1d5e049df05c1848fd105242ac0c5",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v38/frontier-tavern-mac-v38.zip",
-  "macSha": "c792c7f05b613695b74216f991865bd7dd2a76e93362e30ef6ab9c3244a0faa2",
-  "sig": "181r1g4"
+  "version": "v39",
+  "notes": "v39: Rearranged furniture now works properly — benches and tables you move in build mode re-link, so patrons seated at moved furniture face the right way and actually order (previously they could sit staring at a wall in silence). The upstairs wardrobe is out of the chimney.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v39/frontier-tavern-win-v39.zip",
+  "winSha": "173a3a3befab91e8180578d2824d20afe553320404bbef451abe0dfa135b914c",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v39/frontier-tavern-mac-v39.zip",
+  "macSha": "f1be8735995ea6530e47992aeedbc1e21b689b3553806ebf1d1e6f0bb1c835f0",
+  "sig": "qkdipc"
 }
