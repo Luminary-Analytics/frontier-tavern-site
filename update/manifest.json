@@ -1,9 +1,9 @@
 {
-  "version": "v35",
-  "notes": "A tidy little release: the upstairs sconce flame sits on its wick again (a bug our new automated inspector caught before any player did). Every release from here on has to pass a 13-point regression inspection before it ships.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v35/frontier-tavern-win-v35.zip",
-  "winSha": "ca3ef6b40b88a994c635a23352cd609fa3b4b6819837705cfa7da36a0b3a54a2",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v35/frontier-tavern-mac-v35.zip",
-  "macSha": "1a5f7216a2794376fb8bdf55a6d57350f2f6c555e738f623302b84824c540db7",
-  "sig": "1ju35re"
+  "version": "v36",
+  "notes": "The OPEN/CLOSED sign moves to where a sign belongs — outside, beside the door, letters facing you — and stops secretly flipping to CLOSED when you use the door (that's why patrons stopped coming). The basin washes instead of cooks, a caption under the hotbar names what you're holding, Maren's letters land clear of the doorway, and the upstairs wardrobe is out of the wall.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v36/frontier-tavern-win-v36.zip",
+  "winSha": "8cd80d26a1f869c1ea25c9edf9fbc4eaea2852e27244607239856fc672f68b37",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v36/frontier-tavern-mac-v36.zip",
+  "macSha": "5726fe136c9939d892cb422422d65584821ad0f4708f8b607a61605fab432dad",
+  "sig": "1g6kvu9"
 }
