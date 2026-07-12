@@ -1,9 +1,9 @@
 {
-  "version": "v37",
-  "notes": "v37: The invisible-patron mystery is solved — Granny's character model had been silently missing since v29 (a git-lfs pointer shipped instead of the 118MB file); she is back in the flesh and the release gate now verifies every patron model. The menu is now a proper framed chalkboard on the east wall by the ale shelf (no more clipping into the fireplace framing). Picking up furniture politely dismisses anyone sitting on it. Front door swing re-verified.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v37/frontier-tavern-win-v37.zip",
-  "winSha": "e8315984703aee158ca943f02a9b3f57cf4cc7ef5f2d84938f88d17fb82d3d63",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v37/frontier-tavern-mac-v37.zip",
-  "macSha": "598b70e69508d77f2be674cf80ca65d7a7c6e760744ed65b181c3c8168471f9f",
-  "sig": "889vr8"
+  "version": "v38",
+  "notes": "v38: Big pathing fix — buying the Front Porch or Garden Pavilion no longer breaks patron pathing (a mesh import setting made the game rebuild its walk-map without the porch, fence, and rocks in real builds; the release gate now checks every mesh). The merchant wagon's floating flame is now a proper hanging iron lantern.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v38/frontier-tavern-win-v38.zip",
+  "winSha": "895470a2caec2cbe742a631211b7d459fab1d5e049df05c1848fd105242ac0c5",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v38/frontier-tavern-mac-v38.zip",
+  "macSha": "c792c7f05b613695b74216f991865bd7dd2a76e93362e30ef6ab9c3244a0faa2",
+  "sig": "181r1g4"
 }
