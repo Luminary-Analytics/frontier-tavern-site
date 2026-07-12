@@ -1,9 +1,9 @@
 {
-  "version": "v34",
-  "notes": "The invisible patrons were there all along — Unity just stopped drawing them, and now it can't. Early goals count dishes served instead of reputation (no more quests that un-complete themselves), an OPEN/CLOSED shingle hangs by the door and you can flip it, the basin finally looks like a wash tub and says 'washing', the kitchen got elbow room, and the beehive looks like a beehive.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v34/frontier-tavern-win-v34.zip",
-  "winSha": "2314f6f2f764f998e4384623b365d5ed056e7a6572b2ea44c9f3739e98866dff",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v34/frontier-tavern-mac-v34.zip",
-  "macSha": "23ba79d3356e8a4b51d844e6ff07e218234a1583ceaa77663512ec5d2d522146",
-  "sig": "1m8t5gk"
+  "version": "v35",
+  "notes": "A tidy little release: the upstairs sconce flame sits on its wick again (a bug our new automated inspector caught before any player did). Every release from here on has to pass a 13-point regression inspection before it ships.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v35/frontier-tavern-win-v35.zip",
+  "winSha": "ca3ef6b40b88a994c635a23352cd609fa3b4b6819837705cfa7da36a0b3a54a2",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v35/frontier-tavern-mac-v35.zip",
+  "macSha": "1a5f7216a2794376fb8bdf55a6d57350f2f6c555e738f623302b84824c540db7",
+  "sig": "1ju35re"
 }
