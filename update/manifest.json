@@ -1,9 +1,9 @@
 {
-  "version": "v39",
-  "notes": "v39: Rearranged furniture now works properly — benches and tables you move in build mode re-link, so patrons seated at moved furniture face the right way and actually order (previously they could sit staring at a wall in silence). The upstairs wardrobe is out of the chimney.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v39/frontier-tavern-win-v39.zip",
-  "winSha": "173a3a3befab91e8180578d2824d20afe553320404bbef451abe0dfa135b914c",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v39/frontier-tavern-mac-v39.zip",
-  "macSha": "f1be8735995ea6530e47992aeedbc1e21b689b3553806ebf1d1e6f0bb1c835f0",
-  "sig": "qkdipc"
+  "version": "v40",
+  "notes": "v40: The porch/pavilion blocker is dead — verified in a real build this time, not just the editor. Two more root causes fixed on top of v38's mesh fix: the seat route-checker kept using a stale pre-purchase map reference (so every seat silently read as unreachable after buying an expansion), and a patron head-counter could drift and convince the game the tavern was full. The game now also logs a navigation health line after every rebuild so this class of bug can never hide again.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v40/frontier-tavern-win-v40.zip",
+  "winSha": "ee4c1e3ef3ea1094e4f9aa25a8122e869a3c0d939684758087821186aa7d4220",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v40/frontier-tavern-mac-v40.zip",
+  "macSha": "53dc9d9adbcab838c792e3e744436f6b6e1807a576adc8c0f38845b0064d7fb4",
+  "sig": "1h892wf"
 }
