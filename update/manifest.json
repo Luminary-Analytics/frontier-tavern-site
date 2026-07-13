@@ -1,9 +1,9 @@
 {
-  "version": "v44",
-  "notes": "v44: Your inventory now survives between sessions — whatever's in your hotbar when the game saves is there when you come back (it was silently vanishing on every load until now). And porch/pavilion patrons sit properly ON their stools instead of hovering above them.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v44/frontier-tavern-win-v44.zip",
-  "winSha": "7442d27302598d398b40627ae112ae94d086ea1daeef3db2e83a0ab3f307850c",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v44/frontier-tavern-mac-v44.zip",
-  "macSha": "d5c411d82ab379032f56a246017e93593eb98e3e9704d2e4e3332e7d2f37d72c",
-  "sig": "lkh41t"
+  "version": "v45",
+  "notes": "v45: Glowcap Stew is finally cookable — the pot now waits when your ingredients could become a bigger dish (add more, or press E with empty hands to cook what's in there). Furniture you place against walls STAYS where you put it between sessions (a repair pass was quietly snapping it back). Old saves get the wardrobe moved into the bedroom automatically, and the pavilion's third seat is reachable now.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v45/frontier-tavern-win-v45.zip",
+  "winSha": "b5f5a391cc8976eb9571565925f1d1ef06245f730ce70338b863743a97263f6e",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v45/frontier-tavern-mac-v45.zip",
+  "macSha": "5119b07f9983664a702dac759a8356db12826fe5b07e066999874bab5ae81960",
+  "sig": "pqeae5"
 }
