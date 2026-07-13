@@ -1,9 +1,9 @@
 {
-  "version": "v41",
-  "notes": "v41: The feedback form got a big simplification — just a subject, one big text box, and Bug/Enhancement/Feedback. New 'Improve with AI' button tidies your words into a clear report before you submit (your text is never sent anywhere until you hit Submit). Save repair now also rescues regular furniture wedged into walls, and tells you when it tidied your tavern on load.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v41/frontier-tavern-win-v41.zip",
-  "winSha": "0ef74584c1598f3401f3b6f7b5eec7178f6a267aea6d8dcbd17d14579297d7fe",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v41/frontier-tavern-mac-v41.zip",
-  "macSha": "36c5e49d7223fd37bf9296fcc61c0db05b88ff38d013c63db55544917ddb99f1",
-  "sig": "1ernqt0"
+  "version": "v42",
+  "notes": "v42: The porch and pavilion furniture is properly sized now — the giant stools are gone, the tables sit on the deck instead of inside it, and patrons sit at natural height where you can actually see what they want.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v42/frontier-tavern-win-v42.zip",
+  "winSha": "cb1326d144d61eb51e6dc36262480b2f5daedf6eae02d7267ea55a9754feac62",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v42/frontier-tavern-mac-v42.zip",
+  "macSha": "c3fafddaf4e7d8cd9799b97b88187010b1097e65fa054d6be20ea34967a530e9",
+  "sig": "jwl1jv"
 }
