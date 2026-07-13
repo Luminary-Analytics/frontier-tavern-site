@@ -1,9 +1,9 @@
 {
-  "version": "v42",
-  "notes": "v42: The porch and pavilion furniture is properly sized now — the giant stools are gone, the tables sit on the deck instead of inside it, and patrons sit at natural height where you can actually see what they want.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v42/frontier-tavern-win-v42.zip",
-  "winSha": "cb1326d144d61eb51e6dc36262480b2f5daedf6eae02d7267ea55a9754feac62",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v42/frontier-tavern-mac-v42.zip",
-  "macSha": "c3fafddaf4e7d8cd9799b97b88187010b1097e65fa054d6be20ea34967a530e9",
-  "sig": "jwl1jv"
+  "version": "v43",
+  "notes": "v43: You can now fish along the whole creek near the tavern, not just one tiny spot by the bridge. Letters (and anything else at your feet) can be read while looking straight down. The upstairs wardrobe is properly in the bedroom, and that mysterious half-buried object by the path was the beehive lying on its side — it's standing up now.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v43/frontier-tavern-win-v43.zip",
+  "winSha": "4f96d07862bd6f22ca87bae158a93a7a1d1fea7a6f569dc2faaccc595255959b",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v43/frontier-tavern-mac-v43.zip",
+  "macSha": "8ea2b53e6bb404148cd30a494e53b3ee3b3bd4eda3853b930e5bddb555f9444d",
+  "sig": "1xm3bvs"
 }
