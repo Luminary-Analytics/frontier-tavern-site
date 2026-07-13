@@ -1,9 +1,9 @@
 {
-  "version": "v40",
-  "notes": "v40: The porch/pavilion blocker is dead — verified in a real build this time, not just the editor. Two more root causes fixed on top of v38's mesh fix: the seat route-checker kept using a stale pre-purchase map reference (so every seat silently read as unreachable after buying an expansion), and a patron head-counter could drift and convince the game the tavern was full. The game now also logs a navigation health line after every rebuild so this class of bug can never hide again.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v40/frontier-tavern-win-v40.zip",
-  "winSha": "ee4c1e3ef3ea1094e4f9aa25a8122e869a3c0d939684758087821186aa7d4220",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v40/frontier-tavern-mac-v40.zip",
-  "macSha": "53dc9d9adbcab838c792e3e744436f6b6e1807a576adc8c0f38845b0064d7fb4",
-  "sig": "1h892wf"
+  "version": "v41",
+  "notes": "v41: The feedback form got a big simplification — just a subject, one big text box, and Bug/Enhancement/Feedback. New 'Improve with AI' button tidies your words into a clear report before you submit (your text is never sent anywhere until you hit Submit). Save repair now also rescues regular furniture wedged into walls, and tells you when it tidied your tavern on load.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v41/frontier-tavern-win-v41.zip",
+  "winSha": "0ef74584c1598f3401f3b6f7b5eec7178f6a267aea6d8dcbd17d14579297d7fe",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v41/frontier-tavern-mac-v41.zip",
+  "macSha": "36c5e49d7223fd37bf9296fcc61c0db05b88ff38d013c63db55544917ddb99f1",
+  "sig": "1ernqt0"
 }
