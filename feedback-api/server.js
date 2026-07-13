@@ -199,6 +199,52 @@ function validate(r) {
   return null;
 }
 
+// ── AI polish: turn a player's raw words into a tidy report ──
+// The game client never holds the Anthropic key; this service brokers one
+// short Messages call. Fail-soft by design: any problem returns an error the
+// client shows as "the scribe is unavailable" and the player's own text stands.
+const ANTHROPIC_KEY = process.env.ANTHROPIC_API_KEY || '';
+const ASSIST_MODEL = process.env.ASSIST_MODEL || 'claude-haiku-4-5-20251001';
+const ASSIST_MAX_INPUT = 4000;
+
+async function polish(type, subject, description) {
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': ANTHROPIC_KEY,
+      'anthropic-version': '2023-06-01',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      model: ASSIST_MODEL,
+      max_tokens: 700,
+      system:
+        'You tidy playtest feedback for a cozy tavern video game. Rewrite the ' +
+        "player's report so a developer can act on it: a short specific subject " +
+        'line and a clear description (plain sentences; a short list only if ' +
+        'the player raised several separate points). PRESERVE every fact and ' +
+        "the player's meaning — never invent details, steps, or symptoms they " +
+        "didn't state, and keep their tone friendly. Respond with ONLY a JSON " +
+        'object: {"subject": "...", "description": "..."} — no code fences, ' +
+        'no commentary.',
+      messages: [{
+        role: 'user',
+        content: 'Report type: ' + type + '\nSubject (may be empty): ' + subject +
+                 '\nDescription:\n' + description,
+      }],
+    }),
+  });
+  if (!res.ok) throw new Error('anthropic ' + res.status + ' ' + (await res.text()).slice(0, 200));
+  const data = await res.json();
+  const text = (data.content || []).map(c => c.text || '').join('').trim();
+  // tolerate stray prose around the JSON — grab the outermost object
+  const m = text.match(/\{[\s\S]*\}/);
+  const parsed = JSON.parse(m ? m[0] : text);
+  if (typeof parsed.subject !== 'string' || typeof parsed.description !== 'string')
+    throw new Error('assist: malformed model output');
+  return { subject: clip(parsed.subject, 120), description: clip(parsed.description, MAX_TEXT) };
+}
+
 const server = http.createServer((req, res) => {
   const send = (code, obj) => {
     const body = JSON.stringify(obj);
@@ -206,7 +252,42 @@ const server = http.createServer((req, res) => {
     res.end(body);
   };
   if (req.method === 'GET' && req.url === '/healthz')
-    return send(200, { ok: true, repo: REPO, hasToken: TOKEN !== '' });
+    return send(200, { ok: true, repo: REPO, hasToken: TOKEN !== '', hasAssist: ANTHROPIC_KEY !== '' });
+
+  if (req.method === 'POST' && req.url === '/api/v1/feedback/assist') {
+    const ip = (req.headers['x-forwarded-for'] || req.socket.remoteAddress || '?')
+      .toString().split(',')[0].trim();
+    if (rateLimited(ip))
+      return send(429, { error: 'rate limited — try again later' });
+    if (!ANTHROPIC_KEY)
+      return send(503, { error: 'assist not configured' });
+    let size = 0;
+    const chunks = [];
+    req.on('data', c => {
+      size += c.length;
+      if (size > 64 * 1024) { send(413, { error: 'too large' }); req.destroy(); return; }
+      chunks.push(c);
+    });
+    req.on('end', async () => {
+      if (size > 64 * 1024) return;
+      let r;
+      try { r = JSON.parse(Buffer.concat(chunks).toString('utf8')); }
+      catch { return send(400, { error: 'bad json' }); }
+      const desc = clip(r.description, ASSIST_MAX_INPUT);
+      if (!desc) return send(400, { error: 'missing description' });
+      try {
+        const out = await polish(
+          VALID_TYPES.has(r.type) ? r.type : 'feedback',
+          clip(r.subject, 120), desc);
+        return send(200, out);
+      } catch (e) {
+        console.error('assist failed:', e.message);
+        return send(502, { error: 'assist failed — try again later' });
+      }
+    });
+    return;
+  }
+
   if (req.method !== 'POST' || req.url !== '/api/v1/feedback/reports')
     return send(404, { success: false, error: 'not found' });
 
