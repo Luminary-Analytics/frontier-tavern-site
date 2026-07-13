@@ -1,9 +1,9 @@
 {
-  "version": "v45",
-  "notes": "v45: Glowcap Stew is finally cookable — the pot now waits when your ingredients could become a bigger dish (add more, or press E with empty hands to cook what's in there). Furniture you place against walls STAYS where you put it between sessions (a repair pass was quietly snapping it back). Old saves get the wardrobe moved into the bedroom automatically, and the pavilion's third seat is reachable now.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v45/frontier-tavern-win-v45.zip",
-  "winSha": "b5f5a391cc8976eb9571565925f1d1ef06245f730ce70338b863743a97263f6e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v45/frontier-tavern-mac-v45.zip",
-  "macSha": "5119b07f9983664a702dac759a8356db12826fe5b07e066999874bab5ae81960",
-  "sig": "pqeae5"
+  "version": "v46",
+  "notes": "",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v46/frontier-tavern-win-v46.zip",
+  "winSha": "bd991adcd7217cd4e4bd1fc81368f26f0576bc26abce986607f8c1432dad4f4d",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v46/frontier-tavern-mac-v46.zip",
+  "macSha": "5a3b305f4ac0380a0df610bddb25218b26a6808a3d3e771b508239cd38441ee0",
+  "sig": "16gzb6t"
 }
