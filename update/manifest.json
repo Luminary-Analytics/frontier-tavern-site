@@ -1,9 +1,9 @@
 {
-  "version": "v55",
+  "version": "v56",
   "notes": "",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v55/frontier-tavern-win-v55.zip",
-  "winSha": "d71e9eeb72937a38ca7274e87bec08d9685753852a738af00e1f31eaee12d3d0",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v55/frontier-tavern-mac-v55.zip",
-  "macSha": "c220e81f1e99eb2e048099ff6ebd716b325cca1c3aaba93c78a00cebe4a74d18",
-  "sig": "ad7twx"
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v56/frontier-tavern-win-v56.zip",
+  "winSha": "2bf9e8d04e796666902e613ee629b9ada293cef19989c8aff3d975fa12108ee2",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v56/frontier-tavern-mac-v56.zip",
+  "macSha": "9abb09b50cbba2f18191209a6a175927e73ff4fff7139f2a710b53f46bcf9883",
+  "sig": "ytkpuh"
 }
