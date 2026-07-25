@@ -76,7 +76,12 @@ async function findExisting(clientReportId) {
   const q = encodeURIComponent(`repo:${REPO} in:body "${clientReportId}"`);
   try {
     const r = await gh('/search/issues?q=' + q, 'GET');
-    if (r && r.total_count > 0) return r.items[0].html_url;
+    // hyphen tokenisation again: taking items[0] blindly would treat an
+    // unrelated report as a duplicate and silently DROP a real one
+    if (r && Array.isArray(r.items))
+      for (const it of r.items)
+        if (typeof it.body === 'string' && it.body.includes(clientReportId))
+          return it.html_url;
   } catch { /* search is best-effort; the per-process cache still guards */ }
   return null;
 }
@@ -99,10 +104,17 @@ async function findIssue(clientReportId) {
   const q = encodeURIComponent(`repo:${REPO} in:body "${clientReportId}"`);
   try {
     const r = await gh('/search/issues?q=' + q, 'GET');
-    if (r && r.total_count > 0) {
-      const hit = { number: r.items[0].number, title: r.items[0].title };
-      issueCache.set(clientReportId, hit);
-      return hit;
+    if (r && Array.isArray(r.items)) {
+      // GitHub tokenises on hyphens, so a UUID query matches EVERY report and
+      // ranks an arbitrary one first. Never trust the ordering — confirm the
+      // body actually contains this exact id.
+      for (const it of r.items) {
+        if (typeof it.body === 'string' && it.body.includes(clientReportId)) {
+          const hit = { number: it.number, title: it.title };
+          issueCache.set(clientReportId, hit);
+          return hit;
+        }
+      }
     }
   } catch { /* best effort */ }
   return null;
