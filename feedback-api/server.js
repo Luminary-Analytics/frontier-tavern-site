@@ -99,30 +99,28 @@ const REPLY = '[[REPLY]]';
 
 const issueCache = new Map(); // clientReportId -> {number, title}
 
-async function findIssue(clientReportId) {
-  if (issueCache.has(clientReportId)) return issueCache.get(clientReportId);
-  const q = encodeURIComponent(`repo:${REPO} in:body "${clientReportId}"`);
-  try {
-    const r = await gh('/search/issues?q=' + q, 'GET');
-    if (r && Array.isArray(r.items)) {
-      // GitHub tokenises on hyphens, so a UUID query matches EVERY report and
-      // ranks an arbitrary one first. Never trust the ordering — confirm the
-      // body actually contains this exact id.
-      for (const it of r.items) {
-        if (typeof it.body === 'string' && it.body.includes(clientReportId)) {
-          const hit = { number: it.number, title: it.title };
-          issueCache.set(clientReportId, hit);
-          return hit;
-        }
-      }
-    }
-  } catch { /* best effort */ }
-  return null;
+// The client already knows its issue number (the server returned FT-000129
+// when the report was filed), so look the issue up DIRECTLY. GitHub's search
+// API is both rate-limited to 30/min and hyphen-tokenised, which made a UUID
+// query match every report in the repo — exactly the wrong tool here. The
+// clientReportId is still required and must appear in the issue body, so a
+// caller can't read questions off an issue that isn't theirs.
+async function issueFor(reportId, clientReportId) {
+  const m = /^FT-0*(\d+)$/.exec(String(reportId || '').trim());
+  if (!m) return null;
+  const key = m[1] + '|' + clientReportId;
+  if (issueCache.has(key)) return issueCache.get(key);
+  const issue = await gh(`/repos/${REPO}/issues/${m[1]}`, 'GET');
+  if (!issue || typeof issue.body !== 'string') return null;
+  if (!issue.body.includes(clientReportId)) return null;   // not the caller's
+  const hit = { number: issue.number, title: issue.title };
+  issueCache.set(key, hit);
+  return hit;
 }
 
 // The newest [[ASK]] counts as pending only while no [[REPLY]] follows it.
-async function pendingQuestion(clientReportId) {
-  const hit = await findIssue(clientReportId);
+async function pendingQuestion(reportId, clientReportId) {
+  const hit = await issueFor(reportId, clientReportId);
   if (!hit) return null;
   const comments = await gh(`/repos/${REPO}/issues/${hit.number}/comments?per_page=100`, 'GET');
   if (!Array.isArray(comments)) return null;
@@ -357,12 +355,14 @@ const server = http.createServer((req, res) => {
   if (req.method === 'GET' && req.url.startsWith('/api/v1/feedback/questions')) {
     if (!TOKEN) return send(503, { error: 'service not configured' });
     const u = new URL(req.url, 'http://x');
-    const ids = (u.searchParams.get('ids') || '')
+    // each entry is "FT-000129:<clientReportId>"
+    const pairs = (u.searchParams.get('ids') || '')
       .split(',').map(x => x.trim())
-      .filter(x => /^[0-9a-fA-F-]{16,64}$/.test(x))
+      .map(x => { const i = x.indexOf(':'); return i < 0 ? null : [x.slice(0, i), x.slice(i + 1)]; })
+      .filter(p => p && /^FT-\d{1,9}$/.test(p[0]) && /^[0-9a-fA-F-]{16,64}$/.test(p[1]))
       .slice(0, 20);
-    if (ids.length === 0) return send(200, { questions: [] });
-    Promise.all(ids.map(id => pendingQuestion(id).catch(() => null)))
+    if (pairs.length === 0) return send(200, { questions: [] });
+    Promise.all(pairs.map(p => pendingQuestion(p[0], p[1]).catch(() => null)))
       .then(list => send(200, { questions: list.filter(Boolean) }))
       .catch(() => send(502, { error: 'lookup failed' }));
     return;
@@ -391,7 +391,7 @@ const server = http.createServer((req, res) => {
       const text = clip(r.text, MAX_TEXT);
       if (!text) return send(400, { error: 'empty reply' });
       try {
-        const hit = await findIssue(r.clientReportId);
+        const hit = await issueFor(r.reportId, r.clientReportId);
         if (!hit) return send(404, { error: 'report not found' });
         await gh(`/repos/${REPO}/issues/${hit.number}/comments`, 'POST', {
           body: REPLY + ' **The reporter replied:**\n\n> ' +
