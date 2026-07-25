@@ -81,6 +81,59 @@ async function findExisting(clientReportId) {
   return null;
 }
 
+
+// ── the reply loop ───────────────────────────────────────────────────────
+// Triage can ask a reporter for more detail without knowing who they are.
+// A developer comment marked [[ASK]] becomes a question the GAME shows to
+// whoever filed that report; their answer comes back as a [[REPLY]] comment
+// on the same issue. Identity never leaves the player's machine: the client
+// simply asks "any questions for THESE report ids?", which are ids it
+// generated itself.
+const ASK = '[[ASK]]';
+const REPLY = '[[REPLY]]';
+
+const issueCache = new Map(); // clientReportId -> {number, title}
+
+async function findIssue(clientReportId) {
+  if (issueCache.has(clientReportId)) return issueCache.get(clientReportId);
+  const q = encodeURIComponent(`repo:${REPO} in:body "${clientReportId}"`);
+  try {
+    const r = await gh('/search/issues?q=' + q, 'GET');
+    if (r && r.total_count > 0) {
+      const hit = { number: r.items[0].number, title: r.items[0].title };
+      issueCache.set(clientReportId, hit);
+      return hit;
+    }
+  } catch { /* best effort */ }
+  return null;
+}
+
+// The newest [[ASK]] counts as pending only while no [[REPLY]] follows it.
+async function pendingQuestion(clientReportId) {
+  const hit = await findIssue(clientReportId);
+  if (!hit) return null;
+  const comments = await gh(`/repos/${REPO}/issues/${hit.number}/comments?per_page=100`, 'GET');
+  if (!Array.isArray(comments)) return null;
+  let ask = null, askAt = 0, replyAt = 0;
+  for (const c of comments) {
+    const body = (c && c.body) || '';
+    const at = Date.parse(c.created_at || '') || 0;
+    if (body.includes(ASK) && at >= askAt) {
+      askAt = at;
+      ask = body.slice(body.indexOf(ASK) + ASK.length).trim();
+    }
+    if (body.includes(REPLY) && at > replyAt) replyAt = at;
+  }
+  if (!ask || replyAt > askAt) return null;
+  return {
+    clientReportId,
+    reportId: 'FT-' + String(hit.number).padStart(6, '0'),
+    title: clip(hit.title, 120),
+    question: clip(ask, 700),
+    askedAt: new Date(askAt).toISOString(),
+  };
+}
+
 function brief(r, shotUrls) {
   const rep = r.report || {};
   const b = r.build || {}, s = r.session || {}, w = r.world || {}, t = r.target || {};
@@ -283,6 +336,62 @@ const server = http.createServer((req, res) => {
       } catch (e) {
         console.error('assist failed:', e.message);
         return send(502, { error: 'assist failed — try again later' });
+      }
+    });
+    return;
+  }
+
+  // questions waiting for THIS player's reports
+  if (req.method === 'GET' && req.url.startsWith('/api/v1/feedback/questions')) {
+    if (!TOKEN) return send(503, { error: 'service not configured' });
+    const u = new URL(req.url, 'http://x');
+    const ids = (u.searchParams.get('ids') || '')
+      .split(',').map(x => x.trim())
+      .filter(x => /^[0-9a-fA-F-]{16,64}$/.test(x))
+      .slice(0, 20);
+    if (ids.length === 0) return send(200, { questions: [] });
+    Promise.all(ids.map(id => pendingQuestion(id).catch(() => null)))
+      .then(list => send(200, { questions: list.filter(Boolean) }))
+      .catch(() => send(502, { error: 'lookup failed' }));
+    return;
+  }
+
+  // the player's answer goes back onto the same issue
+  if (req.method === 'POST' && req.url === '/api/v1/feedback/answer') {
+    const ip2 = (req.headers['x-forwarded-for'] || req.socket.remoteAddress || '?')
+      .toString().split(',')[0].trim();
+    if (rateLimited(ip2)) return send(429, { error: 'rate limited — try again later' });
+    if (!TOKEN) return send(503, { error: 'service not configured' });
+    let n = 0; const parts = [];
+    req.on('data', c => {
+      n += c.length;
+      if (n > 32 * 1024) { send(413, { error: 'too large' }); req.destroy(); return; }
+      parts.push(c);
+    });
+    req.on('end', async () => {
+      if (n > 32 * 1024) return;
+      let r;
+      try { r = JSON.parse(Buffer.concat(parts).toString('utf8')); }
+      catch { return send(400, { error: 'bad json' }); }
+      if (typeof r.clientReportId !== 'string' ||
+          !/^[0-9a-fA-F-]{16,64}$/.test(r.clientReportId))
+        return send(400, { error: 'bad clientReportId' });
+      const text = clip(r.text, MAX_TEXT);
+      if (!text) return send(400, { error: 'empty reply' });
+      try {
+        const hit = await findIssue(r.clientReportId);
+        if (!hit) return send(404, { error: 'report not found' });
+        await gh(`/repos/${REPO}/issues/${hit.number}/comments`, 'POST', {
+          body: REPLY + ' **The reporter replied:**\n\n> ' +
+                text.replace(/\n/g, '\n> '),
+        });
+        // answered — drop the needs-info flag if triage set one
+        try { await gh(`/repos/${REPO}/issues/${hit.number}/labels/needs-info`, 'DELETE'); }
+        catch { /* label may not be set */ }
+        return send(200, { success: true, reportId: 'FT-' + String(hit.number).padStart(6, '0') });
+      } catch (e) {
+        console.error('answer failed:', e.message);
+        return send(502, { error: 'could not post reply' });
       }
     });
     return;
