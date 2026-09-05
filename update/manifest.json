@@ -1,9 +1,9 @@
 {
-  "version": "v81",
-  "notes": "Tavern polish: seated patrons fit their chairs, candles rest on tabletops, wall sconces face the room, and a compact cooking pot fits the stove. Includes repaired outdoor furniture links, cleaner menus, roof and lantern details, improved item placement, and a visible sleep confirmation.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v81/frontier-tavern-win-v81.zip",
-  "winSha": "865d7e3007c8de1de7e784fe36c9f9c0306d5a0eeaabd02c4e771fdae0130b57",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v81/frontier-tavern-mac-v81.zip",
-  "macSha": "81b1884b40a4b33ba815e1e4275b88511ef61aa8f2783f29d4283b88b855f13e",
-  "sig": "1r2ue8x"
+  "version": "v82",
+  "notes": "More reliable updates: automatically checks the official GitHub mirror when the relay cannot be reached. Clearer error details, bounded connection waits, and reliable retry from paused settings. Includes all v81 tavern, seating, lighting, and menu polish.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v82/frontier-tavern-win-v82.zip",
+  "winSha": "d6eb1395c2794197823eb3bf3149bc5cbebdbdb36ce9bdae8d680fe945278e7e",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v82/frontier-tavern-mac-v82.zip",
+  "macSha": "bb818b555fa1ef937aac3d204c1c9a3f19b6e9b762964a8944cb3733df8dd683",
+  "sig": "n1rgy7"
 }
