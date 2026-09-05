@@ -1,9 +1,9 @@
 {
-  "version": "v82",
-  "notes": "More reliable updates: automatically checks the official GitHub mirror when the relay cannot be reached. Clearer error details, bounded connection waits, and reliable retry from paused settings. Includes all v81 tavern, seating, lighting, and menu polish.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v82/frontier-tavern-win-v82.zip",
-  "winSha": "d6eb1395c2794197823eb3bf3149bc5cbebdbdb36ce9bdae8d680fe945278e7e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v82/frontier-tavern-mac-v82.zip",
-  "macSha": "bb818b555fa1ef937aac3d204c1c9a3f19b6e9b762964a8944cb3733df8dd683",
-  "sig": "n1rgy7"
+  "version": "v83",
+  "notes": "A cleaner tavern and a more reliable journey. Modernized player HUD and menus; polished mugs, the front door, walls, shelves, barrels and lighting. Fixes protect saved progress, preserve quest gifts and daily requests, and settle served meals before sleep or quitting. Harvested crops no longer leave floating outlines; reward indicators, patron speech and the ending message fit cleanly on screen. Verified with three new-game campaigns through the ending and 268 regression checks.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v83/frontier-tavern-win-v83.zip",
+  "winSha": "7a6a593ba0fad679ce5ac8b14777c7b6a68b6679de4bbb568755ca6485669250",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v83/frontier-tavern-mac-v83.zip",
+  "macSha": "4b88ceb9801b7380580644fa1c0b591066e179bc0048b606a1502a2a4dda480a",
+  "sig": "qjx93v"
 }
