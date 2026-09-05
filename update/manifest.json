@@ -1,9 +1,9 @@
 {
-  "version": "v80",
-  "notes": "The stairs open on day one so you can reach your bed (the rope is gone; lodgers still arrive at The Glowing Sign), and the loft floor no longer catches your head on the stairs. The round table has its stools back and patrons sit on them; served mugs land on the table, not in the air. The purple serving table is wood again, mugs hang from the rack hooks, the kitchen roof and both gables are closed to the sky, the OPEN sign is bigger, and evening events (Bard Night, Cold Snap, Adventurers' Rush) now actually happen. New: field-of-view slider in Settings. Title screen matches the in-game menus.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v80/frontier-tavern-win-v80.zip",
-  "winSha": "4e8ee2fe4e9bb1dd19322d3323e9a2adfce2b9e9f6f18bd705d2ef56e6f10d76",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v80/frontier-tavern-mac-v80.zip",
-  "macSha": "f4f2d83a4a674a517f9c7c13ff5e61bbed00f6e5fa157576c3ca1cc6e7ad6032",
-  "sig": "us3vr6"
+  "version": "v81",
+  "notes": "Tavern polish: seated patrons fit their chairs, candles rest on tabletops, wall sconces face the room, and a compact cooking pot fits the stove. Includes repaired outdoor furniture links, cleaner menus, roof and lantern details, improved item placement, and a visible sleep confirmation.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v81/frontier-tavern-win-v81.zip",
+  "winSha": "865d7e3007c8de1de7e784fe36c9f9c0306d5a0eeaabd02c4e771fdae0130b57",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v81/frontier-tavern-mac-v81.zip",
+  "macSha": "81b1884b40a4b33ba815e1e4275b88511ef61aa8f2783f29d4283b88b855f13e",
+  "sig": "1r2ue8x"
 }
