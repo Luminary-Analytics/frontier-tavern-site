@@ -1,9 +1,9 @@
 {
-  "version": "v83",
-  "notes": "A cleaner tavern and a more reliable journey. Modernized player HUD and menus; polished mugs, the front door, walls, shelves, barrels and lighting. Fixes protect saved progress, preserve quest gifts and daily requests, and settle served meals before sleep or quitting. Harvested crops no longer leave floating outlines; reward indicators, patron speech and the ending message fit cleanly on screen. Verified with three new-game campaigns through the ending and 268 regression checks.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v83/frontier-tavern-win-v83.zip",
-  "winSha": "7a6a593ba0fad679ce5ac8b14777c7b6a68b6679de4bbb568755ca6485669250",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v83/frontier-tavern-mac-v83.zip",
-  "macSha": "4b88ceb9801b7380580644fa1c0b591066e179bc0048b606a1502a2a4dda480a",
-  "sig": "qjx93v"
+  "version": "v84",
+  "notes": "Player feedback fixes: supported stair landing with roof clearance, finished loft ceilings, better wardrobe and sconce placement, and a serving table that clears the wall. Lodgers now lie on their beds. A 24-item kitchen pantry saves prepared food and supplies; cooking stations offer recipe and ingredient selection with empty-handed E. Ferris's wagon sells supplies after hours. Safer mug drops avoid stacking and preserve blocked items, with retained placement shaders to prevent runtime input errors.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v84/frontier-tavern-win-v84.zip",
+  "winSha": "fc0f323221cd8d390e342e785bf2d8c4c382d18b0c0100cd4ee74977f9abe2a0",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v84/frontier-tavern-mac-v84.zip",
+  "macSha": "5410c176c2fca627ddbeebbde8da87cb4b9e7eb4bc10fca675e8697058fd89f9",
+  "sig": "1kntaqd"
 }
