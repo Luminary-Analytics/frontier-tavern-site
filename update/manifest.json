@@ -1,9 +1,9 @@
 {
-  "version": "v84",
-  "notes": "Player feedback fixes: supported stair landing with roof clearance, finished loft ceilings, better wardrobe and sconce placement, and a serving table that clears the wall. Lodgers now lie on their beds. A 24-item kitchen pantry saves prepared food and supplies; cooking stations offer recipe and ingredient selection with empty-handed E. Ferris's wagon sells supplies after hours. Safer mug drops avoid stacking and preserve blocked items, with retained placement shaders to prevent runtime input errors.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v84/frontier-tavern-win-v84.zip",
-  "winSha": "fc0f323221cd8d390e342e785bf2d8c4c382d18b0c0100cd4ee74977f9abe2a0",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v84/frontier-tavern-mac-v84.zip",
-  "macSha": "5410c176c2fca627ddbeebbde8da87cb4b9e7eb4bc10fca675e8697058fd89f9",
-  "sig": "1kntaqd"
+  "version": "v85",
+  "notes": "New: the Tavern Ledger in the kitchen sells upgrades - a bigger pantry, a faster kitchen, and an assistant who clears and washes abandoned dishes. Left-clicking a waiting patron now serves them like E, and mugs no longer land on benches or stools. Older saves no longer have the kitchen shelf poking through the wall.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v85/frontier-tavern-win-v85.zip",
+  "winSha": "001a4aaf79b01b056abafbe510289b256d9ef61c9bc46f078bbc8272a5d209f1",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v85/frontier-tavern-mac-v85.zip",
+  "macSha": "8e4e3c5d856c435b44c1306694628cb259d797805e766115f6533f194788b418",
+  "sig": "13f6oo4"
 }
