@@ -1,9 +1,9 @@
 {
-  "version": "v86",
-  "notes": "New: hold B for the build wheel - every piece of furniture with its picture, name and price. Flick the mouse toward one and let go of B, or tap B and click. Move furniture is on the wheel too, the scroll wheel turns pieces, and Esc backs out of build mode without opening the pause menu. The garden bush no longer sits on the beehive.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v86/frontier-tavern-win-v86.zip",
-  "winSha": "283a374bda49fcf50f3233427661784ab8940eff5cfa8447c3b243755bd617e2",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v86/frontier-tavern-mac-v86.zip",
-  "macSha": "143eb0b1071563267a4a4df340ae1c78d198e06c67cc4f52ffaa24ef2634ae46",
-  "sig": "1w4ta9q"
+  "version": "v87",
+  "notes": "New build mode: tap B to enter with empty hands and move your furniture; hold B for the catalog wheel, with a picture, name and price for every piece. One purchase per click (Shift keeps the piece), Esc or right-click puts it away, and answering a bug report question now closes the window.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v87/frontier-tavern-win-v87.zip",
+  "winSha": "0c0fc94eba970e6c60c31edc65fd91e0153f061f322d437d58acb2f98906178b",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v87/frontier-tavern-mac-v87.zip",
+  "macSha": "c3792720d7ac8357473223a0b32dfc2ec4f7ed8101444c2d4b80c63906cef720",
+  "sig": "1mg0ogq"
 }
