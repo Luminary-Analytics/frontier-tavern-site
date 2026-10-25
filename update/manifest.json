@@ -1,9 +1,9 @@
 {
-  "version": "v88",
-  "notes": "The biggest update yet: your tavern is rebuilt and your save moves in. Everything is bought with gold (hold B or press Q for the catalog; one buy per click, Shift keeps the piece). Eight adventurers visit, Bard Night fills the room with music, and up to six keepers can play together. Venture into the Wayward Vaults, hunt, craft, keep bees and pigs, and rebind your keys or use a gamepad.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v88/frontier-tavern-win-v88.zip",
-  "winSha": "352c4f0dd316f5ce9330a23322a0c2753d0376bf46b97e0396df4c19fffded86",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v88/frontier-tavern-mac-v88.zip",
-  "macSha": "b7c5ab1c10a39e35405c5d234f10fe503f74c4e8252cc7ee3e97b01ded229f5d",
-  "sig": "1x0ctxt"
+  "version": "v89",
+  "notes": "Your tavern, rebuilt: a new building lit by the time of day, every piece of furniture remade, and a portal at the end of the road where patrons and travellers arrive and leave. Patrons hold their mugs by the handle. This version starts a new tavern; your old save is set aside, not deleted.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v89/frontier-tavern-win-v89.zip",
+  "winSha": "9c6b36810f57e97f4639845168d38cbe7d248079ce1a20e59bee09f686fa6ef4",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v89/frontier-tavern-mac-v89.zip",
+  "macSha": "4f300fcd1044fb487bb1e807272d3d04b315d9856f07d6f6c5e1efbf9d8bbdbb",
+  "sig": "jacvx0"
 }
