@@ -1,9 +1,9 @@
 {
-  "version": "v87",
-  "notes": "New build mode: tap B to enter with empty hands and move your furniture; hold B for the catalog wheel, with a picture, name and price for every piece. One purchase per click (Shift keeps the piece), Esc or right-click puts it away, and answering a bug report question now closes the window.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v87/frontier-tavern-win-v87.zip",
-  "winSha": "0c0fc94eba970e6c60c31edc65fd91e0153f061f322d437d58acb2f98906178b",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v87/frontier-tavern-mac-v87.zip",
-  "macSha": "c3792720d7ac8357473223a0b32dfc2ec4f7ed8101444c2d4b80c63906cef720",
-  "sig": "1mg0ogq"
+  "version": "v88",
+  "notes": "The biggest update yet: your tavern is rebuilt and your save moves in. Everything is bought with gold (hold B or press Q for the catalog; one buy per click, Shift keeps the piece). Eight adventurers visit, Bard Night fills the room with music, and up to six keepers can play together. Venture into the Wayward Vaults, hunt, craft, keep bees and pigs, and rebind your keys or use a gamepad.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v88/frontier-tavern-win-v88.zip",
+  "winSha": "352c4f0dd316f5ce9330a23322a0c2753d0376bf46b97e0396df4c19fffded86",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v88/frontier-tavern-mac-v88.zip",
+  "macSha": "b7c5ab1c10a39e35405c5d234f10fe503f74c4e8252cc7ee3e97b01ded229f5d",
+  "sig": "1x0ctxt"
 }
