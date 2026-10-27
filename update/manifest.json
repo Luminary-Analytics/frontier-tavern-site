@@ -1,9 +1,9 @@
 {
-  "version": "v89",
-  "notes": "Your tavern, rebuilt: a new building lit by the time of day, every piece of furniture remade, and a portal at the end of the road where patrons and travellers arrive and leave. Patrons hold their mugs by the handle. This version starts a new tavern; your old save is set aside, not deleted.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v89/frontier-tavern-win-v89.zip",
-  "winSha": "9c6b36810f57e97f4639845168d38cbe7d248079ce1a20e59bee09f686fa6ef4",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v89/frontier-tavern-mac-v89.zip",
-  "macSha": "4f300fcd1044fb487bb1e807272d3d04b315d9856f07d6f6c5e1efbf9d8bbdbb",
-  "sig": "jacvx0"
+  "version": "v90",
+  "notes": "Travellers who stay the night now get up in the morning, come down the stairs and walk back down the road into the portal. Patrons heading home keep to the road.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v90/frontier-tavern-win-v90.zip",
+  "winSha": "a55eb62acf475034de61dbba3519e52f0a82e808699e89527793ad48ac71130e",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v90/frontier-tavern-mac-v90.zip",
+  "macSha": "a575644da8e35d44e05b91afdc508f269ce68c0797c85621c88000f7592bd19b",
+  "sig": "7tgdbg"
 }
