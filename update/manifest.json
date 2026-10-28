@@ -1,9 +1,9 @@
 {
-  "version": "v90",
-  "notes": "Travellers who stay the night now get up in the morning, come down the stairs and walk back down the road into the portal. Patrons heading home keep to the road.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v90/frontier-tavern-win-v90.zip",
-  "winSha": "a55eb62acf475034de61dbba3519e52f0a82e808699e89527793ad48ac71130e",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v90/frontier-tavern-mac-v90.zip",
-  "macSha": "a575644da8e35d44e05b91afdc508f269ce68c0797c85621c88000f7592bd19b",
-  "sig": "7tgdbg"
+  "version": "v91",
+  "notes": "Patrons and travellers keep to the road now: along the plank walk by the creek, over the bridge and down the road to the portal, instead of stepping over the water and across the meadow.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v91/frontier-tavern-win-v91.zip",
+  "winSha": "81d8b8442b73fc84e89adf7824cd15e6eca5b4f54d746dade66d59a662423e58",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v91/frontier-tavern-mac-v91.zip",
+  "macSha": "e509032b047c96866399b584fd18769df38ae07ef5a32658c24b4b96f0d7953b",
+  "sig": "1ra4rws"
 }
