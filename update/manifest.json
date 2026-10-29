@@ -1,9 +1,9 @@
 {
-  "version": "v91",
-  "notes": "Patrons and travellers keep to the road now: along the plank walk by the creek, over the bridge and down the road to the portal, instead of stepping over the water and across the meadow.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v91/frontier-tavern-win-v91.zip",
-  "winSha": "81d8b8442b73fc84e89adf7824cd15e6eca5b4f54d746dade66d59a662423e58",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v91/frontier-tavern-mac-v91.zip",
-  "macSha": "e509032b047c96866399b584fd18769df38ae07ef5a32658c24b4b96f0d7953b",
-  "sig": "1ra4rws"
+  "version": "v92",
+  "notes": "Fixes from your reports: patrons stay in their seats while they eat and drink, Maren's letter lies on the mantel, the stair is closed in, the gallery's beams line up, the beehive is out of the garden bed, and a dirty dish tells you where to buy a wash basin.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v92/frontier-tavern-win-v92.zip",
+  "winSha": "01994fd95a0af9f85611e2bb82759228f77c06794b29018fd3c9b4fcf168ecbd",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v92/frontier-tavern-mac-v92.zip",
+  "macSha": "767618f118be565bf4c37c2f7f0f2b01f7ca58e40a680e19317e6bb5d3af0133",
+  "sig": "1h607tu"
 }
