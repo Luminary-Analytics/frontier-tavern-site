@@ -1,9 +1,9 @@
 {
-  "version": "v92",
-  "notes": "Fixes from your reports: patrons stay in their seats while they eat and drink, Maren's letter lies on the mantel, the stair is closed in, the gallery's beams line up, the beehive is out of the garden bed, and a dirty dish tells you where to buy a wash basin.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v92/frontier-tavern-win-v92.zip",
-  "winSha": "01994fd95a0af9f85611e2bb82759228f77c06794b29018fd3c9b4fcf168ecbd",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v92/frontier-tavern-mac-v92.zip",
-  "macSha": "767618f118be565bf4c37c2f7f0f2b01f7ca58e40a680e19317e6bb5d3af0133",
-  "sig": "1h607tu"
+  "version": "v93",
+  "notes": "Fixes from your reports: a wash basin in every tavern, one notice board inside by the door for every job, staff who give way and serve the most urgent patron first, a second barmaid to hire, the pale one once a night for stew only, and barley's seed named at Ferris's.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v93/frontier-tavern-win-v93.zip",
+  "winSha": "3abba675ef8695c88a510c388f2a7b68e4a22fc5d565d185cde3417b1bb96945",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v93/frontier-tavern-mac-v93.zip",
+  "macSha": "bd549a502c8e9c85bcdda75f57cfca860290ae7a9c36c031642db212639811f5",
+  "sig": "9xk1zz"
 }
