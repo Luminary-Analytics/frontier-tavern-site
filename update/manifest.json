@@ -1,9 +1,9 @@
 {
-  "version": "v94",
-  "notes": "Bug reports now attach a screenshot of what you were looking at, not the pause menu, and Take Screenshot no longer catches its own banner.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v94/frontier-tavern-win-v94.zip",
-  "winSha": "04738aaecb7df1ae18184ee26aa815980ab56076a695f04341d7ec0f2c69e742",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v94/frontier-tavern-mac-v94.zip",
-  "macSha": "72908a1896000e6fae55cae00193dc7956a7c6d43e3aaae80cfd07c20e55cc88",
-  "sig": "v0vwto"
+  "version": "v95",
+  "notes": "Bug reports opened over a window can be typed into, and Enter, clicks and Esc there reach only the report; frames in the tavern take about a third less time.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v95/frontier-tavern-win-v95.zip",
+  "winSha": "ede0514f742f39bf9d8692b509f36d039850c284711cd97f4c8eaffd32b19b3b",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v95/frontier-tavern-mac-v95.zip",
+  "macSha": "24ac3704a00969933e7f7535cb0501d3e996c4b6d350295fd2c956e6bd1b6daf",
+  "sig": "98b182"
 }
