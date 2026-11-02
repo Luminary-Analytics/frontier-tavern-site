@@ -1,9 +1,9 @@
 {
-  "version": "v93",
-  "notes": "Fixes from your reports: a wash basin in every tavern, one notice board inside by the door for every job, staff who give way and serve the most urgent patron first, a second barmaid to hire, the pale one once a night for stew only, and barley's seed named at Ferris's.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v93/frontier-tavern-win-v93.zip",
-  "winSha": "3abba675ef8695c88a510c388f2a7b68e4a22fc5d565d185cde3417b1bb96945",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v93/frontier-tavern-mac-v93.zip",
-  "macSha": "bd549a502c8e9c85bcdda75f57cfca860290ae7a9c36c031642db212639811f5",
-  "sig": "9xk1zz"
+  "version": "v94",
+  "notes": "Bug reports now attach a screenshot of what you were looking at, not the pause menu, and Take Screenshot no longer catches its own banner.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v94/frontier-tavern-win-v94.zip",
+  "winSha": "04738aaecb7df1ae18184ee26aa815980ab56076a695f04341d7ec0f2c69e742",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v94/frontier-tavern-mac-v94.zip",
+  "macSha": "72908a1896000e6fae55cae00193dc7956a7c6d43e3aaae80cfd07c20e55cc88",
+  "sig": "v0vwto"
 }
