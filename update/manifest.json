@@ -1,9 +1,9 @@
 {
-  "version": "v95",
-  "notes": "Bug reports opened over a window can be typed into, and Enter, clicks and Esc there reach only the report; frames in the tavern take about a third less time.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v95/frontier-tavern-win-v95.zip",
-  "winSha": "ede0514f742f39bf9d8692b509f36d039850c284711cd97f4c8eaffd32b19b3b",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v95/frontier-tavern-mac-v95.zip",
-  "macSha": "24ac3704a00969933e7f7535cb0501d3e996c4b6d350295fd2c956e6bd1b6daf",
-  "sig": "98b182"
+  "version": "v96",
+  "notes": "Esc while typing a bug report keeps your words: the report asks before it discards anything.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v96/frontier-tavern-win-v96.zip",
+  "winSha": "0b4201c9905b1f12948b9a6c17ca5af7008c02ff2e0d9f3f55a4556a9952a030",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v96/frontier-tavern-mac-v96.zip",
+  "macSha": "f01a7a221712119d77e843bcddf1686e6885a0094f59c72a5948c49f585a0e7b",
+  "sig": "rh4q7h"
 }
