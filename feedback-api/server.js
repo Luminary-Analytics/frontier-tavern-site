@@ -157,6 +157,7 @@ function brief(r, shotUrls) {
   lines.push(`| Type / Category | ${clip(rep.type, 24)} / ${clip(rep.category, 40)} |`);
   lines.push(`| Player impact | ${clip(rep.playerImpact, 24) || 'n/a'} |`);
   lines.push(`| Build | ${clip(b.gameVersion, 24)} (${clip(b.channel, 24) || 'unknown channel'}) |`);
+  lines.push(`| Machine | ${clip(b.os, 80) || 'n/a'} / ${clip(b.gpu, 80) || 'n/a'} / ${clip(b.resolution, 24) || 'n/a'} |`);
   lines.push(`| Scene / Day / Time | ${clip(w.scene, 40)} / day ${s.gameDay ?? '?'} / ${clip(s.gameTime, 12)} |`);
   lines.push(`| Player position | ${JSON.stringify(w.playerPosition || null)} |`);
   lines.push(`| Session | ${clip(s.sessionId, 40)} (${s.sessionDurationSeconds ?? '?'}s in) |`);
@@ -173,19 +174,38 @@ function brief(r, shotUrls) {
   lines.push('### AUTOMATIC CONTEXT (captured by the game)');
   lines.push('- Held item: ' + clip((r.gameplayState || {}).heldItem, 60));
   lines.push('- Target: ' + (t.identified
-    ? `${clip(t.displayName, 60)} — \`${clip(t.hierarchyPath, 160)}\` (prefab \`${clip(t.prefabId, 60)}\`, ${t.hitDistance ?? '?'}m)`
+    ? `${clip(t.displayName, 200)} — \`${clip(t.hierarchyPath, 160)}\` (prefab \`${clip(t.prefabId, 60)}\`, ${t.hitDistance ?? '?'}m)`
     : 'no specific object identified'));
   lines.push('- Camera dir: ' + JSON.stringify(w.cameraDirection || null));
   lines.push('- FPS now/avg: ' + (perf.currentFps ?? '?') + '/' + (perf.averageFps ?? '?') +
              ' @ ' + clip(perf.resolution, 20));
+  // since v97 the game says what it was doing when the report was filed
+  const st = r.state || {};
+  const stateParts = ['role', 'route', 'keeper', 'assistant', 'pantry', 'aimed', 'hires']
+    .filter(k => typeof st[k] === 'string' && st[k]);
+  if (stateParts.length) {
+    lines.push('');
+    lines.push('### STATE AT FILING (captured by the game)');
+    for (const k of stateParts) lines.push(`- ${k}: ${clip(st[k], 600)}`);
+  }
   if (scan && scan.included) {
+    // a verdict with no measured gap (the game sends -1) has none to print; a negative gap is a sunk piece
+    const measured = typeof scan.supportGapMeters === 'number' &&
+      scan.status !== 'not furniture' && scan.status !== 'no-support';
     lines.push('');
     lines.push('### PLACEMENT SCAN (captured by the game)');
     lines.push('- Status: ' + clip(scan.status, 40));
-    lines.push('- Support: ' + clip(scan.expectedSupport, 60) +
-               ' | gap: ' + (scan.supportGapMeters ?? 'n/a') + 'm');
+    lines.push('- Support: ' + clip(scan.expectedSupport, 200) +
+               ' | gap: ' + (measured ? scan.supportGapMeters.toFixed(2) + 'm' : 'n/a'));
   }
-  const trail = Array.isArray(r.eventTrail) ? r.eventTrail.slice(-40) : [];
+  // the whole trail the game keeps (100 events plus its state lines): 40 lines were about 80 seconds of a busy evening
+  let trail = Array.isArray(r.eventTrail) ? r.eventTrail.slice(-160) : [];
+  // GitHub refuses an issue body over 65,536 characters: the oldest trail lines give way first
+  let room = 40000;
+  for (let i = trail.length - 1; i >= 0; i--) {
+    room -= Math.min(String(trail[i]).length, 221) + 1;
+    if (room < 0) { trail = trail.slice(i + 1); break; }
+  }
   if (trail.length) {
     lines.push('');
     lines.push('### RECENT EVENT TRAIL (captured by the game)');
