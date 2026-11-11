@@ -1,9 +1,9 @@
 {
-  "version": "v96",
-  "notes": "Esc while typing a bug report keeps your words: the report asks before it discards anything.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v96/frontier-tavern-win-v96.zip",
-  "winSha": "0b4201c9905b1f12948b9a6c17ca5af7008c02ff2e0d9f3f55a4556a9952a030",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v96/frontier-tavern-mac-v96.zip",
-  "macSha": "f01a7a221712119d77e843bcddf1686e6885a0094f59c72a5948c49f585a0e7b",
-  "sig": "rh4q7h"
+  "version": "v97",
+  "notes": "Hires serve oldest first and walk faster, each dungeon keeps its own route, a dungeon bag, and 30 fixes from your reports.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v97/frontier-tavern-win-v97.zip",
+  "winSha": "5f5e9699bf820fcd42f14e88729331ed405b99efde82213c6e635e2b1451d379",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v97/frontier-tavern-mac-v97.zip",
+  "macSha": "878ba53d80d281035f248a89ed2e870877a2d5387c2dc3bdf5c21df34212f9a7",
+  "sig": "rcbf3z"
 }
