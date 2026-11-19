@@ -1,9 +1,9 @@
 {
-  "version": "v97",
-  "notes": "Hires serve oldest first and walk faster, each dungeon keeps its own route, a dungeon bag, and 30 fixes from your reports.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v97/frontier-tavern-win-v97.zip",
-  "winSha": "5f5e9699bf820fcd42f14e88729331ed405b99efde82213c6e635e2b1451d379",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v97/frontier-tavern-mac-v97.zip",
-  "macSha": "878ba53d80d281035f248a89ed2e870877a2d5387c2dc3bdf5c21df34212f9a7",
-  "sig": "rcbf3z"
+  "version": "v98",
+  "notes": "A new title and cleaner menus, a rebuilt first vault, sharper combat, and refreshed gear, crafting stations, and scenery.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v98/frontier-tavern-win-v98.zip",
+  "winSha": "64e6fd03bb690aa218958be5c4d4df86c09c8afd34559ef3b47d3b82a3ea7977",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v98/frontier-tavern-mac-v98.zip",
+  "macSha": "3a5bc055c3e709d686cb979f897bb5ab97335760dc9ed2a9761daa93c2153a58",
+  "sig": "1nz830n"
 }
