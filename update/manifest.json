@@ -1,9 +1,9 @@
 {
-  "version": "v98",
-  "notes": "A new title and cleaner menus, a rebuilt first vault, sharper combat, and refreshed gear, crafting stations, and scenery.",
-  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v98/frontier-tavern-win-v98.zip",
-  "winSha": "64e6fd03bb690aa218958be5c4d4df86c09c8afd34559ef3b47d3b82a3ea7977",
-  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v98/frontier-tavern-mac-v98.zip",
-  "macSha": "3a5bc055c3e709d686cb979f897bb5ab97335760dc9ed2a9761daa93c2153a58",
-  "sig": "1nz830n"
+  "version": "v99",
+  "notes": "Smoother first entry to Weathered Vaults on macOS.",
+  "winUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v99/frontier-tavern-win-v99.zip",
+  "winSha": "2080299703c9e68ae918a3f19bd747ec031af54ed5557662b47c2eb8275e2bab",
+  "macUrl": "https://github.com/Luminary-Analytics/frontier-tavern-site/releases/download/v99/frontier-tavern-mac-v99.zip",
+  "macSha": "60a5c311360733ca9d442e199455d79675286ebec225e321e0a1036e83c126bc",
+  "sig": "6b4jon"
 }
